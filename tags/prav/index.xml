@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prav on Dongdong Liu Personal website</title>
+    <link>http://example.org/tags/prav/</link>
+    <description>Recent content in prav on Dongdong Liu Personal website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/prav/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Theme Prav</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>History This theme began it&amp;rsquo;s life in early 2013, as the theme for my blog &amp;ldquo;Thoughts on Engineering and Management&amp;rdquo;. Back then it was generated using nanoc. In 2018, I moved to hugo because of it&amp;rsquo;s ability to hot-reload the website while I was working. Nanoc forced me to rebuild the site which took roughly 10-20 seconds, which quickly became a deal breaker.
+Principles I have always believed in using as little computing resources as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

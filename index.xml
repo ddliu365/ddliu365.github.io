@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dongdong Liu Personal website</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Dongdong Liu Personal website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
+    <channel>
+        <title>Dongdong Liu Personal website </title>
+        <link>http://example.org/</link>
+        <language>en-us</language>
+        <author>Pravin Paratey</author>
+        <rights>(c) 2019</rights>
+        <updated>2019-12-31 00:00:00 &#43;0000 UTC</updated>
+
+        
+        
+        
+        
+        
+    </channel>
 </rss>

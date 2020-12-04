@@ -3,108 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/prav/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <loc>/author/nelson-bighetti/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/theme/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <loc>/publication_types/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/css/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <loc>/publication/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/html/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <loc>/talk/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/markdown/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/markdown-syntax/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/syntax/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/themes/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/themes/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/privacy/</loc>
-    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/rich-content/</loc>
-    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/shortcodes/</loc>
-    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/emoji/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/emoji-support/</loc>
-    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/placeholder-text/</loc>
-    <lastmod>2016-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/text/</loc>
-    <lastmod>2016-04-18T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

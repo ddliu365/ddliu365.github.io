@@ -1,41 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>/</loc>
-  </url>
+  <sitemap>
+    <loc>en/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>/authors/</loc>
-  </url>
+  <sitemap>
+    <loc>zh/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/nelson-bighetti/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>

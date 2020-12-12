@@ -1,7 +1,7 @@
 {
-  "name": "Dongdong Liu",
-  "short_name": "Dongdong Liu",
-  "lang": "en-us",
+  "name": "刘冬冬",
+  "short_name": "刘冬冬",
+  "lang": "zh-Hans",
   "theme_color": "#2962ff",
   "background_color": "#2962ff",
   "icons": [{
@@ -14,5 +14,5 @@
     "type": "image/png"
      }],
   "display": "standalone",
-  "start_url": "/?utm_source=web_app_manifest"
+  "start_url": "/zh/?utm_source=web_app_manifest"
 }

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Dongdong Liu</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <title>Authors | 刘冬冬</title>
+    <link>/zh/authors/</link>
+      <atom:link href="/zh/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language>
     <image>
       <url>/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>/zh/authors/</link>
     </image>
     
   </channel>

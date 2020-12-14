@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>/zh/publications/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publications/"
+                />
+  </url>
+  
+  <url>
     <loc>/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -69,6 +83,24 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>/zh/author/%E5%88%98%E5%86%AC%E5%86%AC/</loc>
+  </url>
+  
+  <url>
+    <loc>/zh/teaching/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/teaching/"
                 />
   </url>
   

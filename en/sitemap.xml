@@ -3,7 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publication-type/1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication-type/1/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/aoxue-wei/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/aoxue-wei/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/aoxue-wei/"
+                />
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +44,171 @@
                 rel="alternate"
                 hreflang="en"
                 href="/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publications/forecast/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publications/forecast/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publications/forecast/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publications/landing/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publications/landing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publications/landing/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/dongdong-liu/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/dongdong-liu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/dongdong-liu/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/hoon-jeong/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/hoon-jeong/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/hoon-jeong/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publications/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publications/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/shramana-ghosh/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/shramana-ghosh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/shramana-ghosh/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/vikram-kapila/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/vikram-kapila/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/vikram-kapila/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/yang-liu/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/yang-liu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/yang-liu/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/yifan-xing/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/yifan-xing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/yifan-xing/"
                 />
   </url>
   
@@ -31,49 +227,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url>
-  
-  <url>
     <loc>/author/dongdong-liu/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>/publications/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/publications/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publications/"
-                />
   </url>
   
   <url>

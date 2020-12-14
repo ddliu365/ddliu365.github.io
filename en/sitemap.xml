@@ -49,10 +49,6 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-  </url>
-  
-  <url>
     <loc>/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -81,14 +77,6 @@
   </url>
   
   <url>
-    <loc>/zh/publications/</loc>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,14 +102,6 @@
                 hreflang="en"
                 href="/teaching/"
                 />
-  </url>
-  
-  <url>
-    <loc>/zh/</loc>
-  </url>
-  
-  <url>
-    <loc>/zh/teaching/</loc>
   </url>
   
 </urlset>

@@ -18,21 +18,6 @@
   </url>
   
   <url>
-    <loc>/author/aoxue-wei/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/author/aoxue-wei/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/author/aoxue-wei/"
-                />
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -44,21 +29,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>/publications/forecast/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/publications/forecast/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publications/forecast/"
                 />
   </url>
   
@@ -104,21 +74,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/"
-                />
-  </url>
-  
-  <url>
-    <loc>/author/hoon-jeong/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/author/hoon-jeong/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/author/hoon-jeong/"
                 />
   </url>
   
@@ -209,6 +164,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/author/yifan-xing/"
+                />
+  </url>
+  
+  <url>
+    <loc>/publications/forecast/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/publications/forecast/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publications/forecast/"
                 />
   </url>
   

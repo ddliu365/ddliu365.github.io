@@ -13,14 +13,6 @@
     </image>
     
     <item>
-      <title>Bidirectional LSTM-based Network for Fall Prediction in a Humanoid</title>
-      <link>/publications/forecast/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publications/forecast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
       <link>/publications/landing/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>

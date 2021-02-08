@@ -5,12 +5,20 @@
     <link>/author/dongdong-liu/</link>
       <atom:link href="/author/dongdong-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Dongdong Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
       <title>Dongdong Liu</title>
       <link>/author/dongdong-liu/</link>
     </image>
+    
+    <item>
+      <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
+      <link>/publications/landing/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publications/landing/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

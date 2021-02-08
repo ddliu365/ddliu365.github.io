@@ -13,79 +13,19 @@
     </image>
     
     <item>
+      <title>Bidirectional LSTM-based Network for Fall Prediction in a Humanoid</title>
+      <link>/publications/forecast/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publications/forecast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
       <link>/publications/landing/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/publications/landing/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/publications/forecast/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publications/forecast/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;h2 id=&#34;-&#34;&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;/h2&gt;
-&lt;p&gt;title: &amp;ldquo;Bidirectional LSTM-based Network for Fall Prediction in a Humanoid&amp;rdquo;
-authors:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dongdong Liu&lt;/li&gt;
-&lt;li&gt;Hoon Jeong&lt;/li&gt;
-&lt;li&gt;Aoxue Wei&lt;/li&gt;
-&lt;li&gt;Vikram Kapila&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;date: &amp;ldquo;2020-11-04T00:00:00Z&amp;rdquo;&lt;/p&gt;
-&lt;h1 id=&#34;doi-&#34;&gt;doi: &amp;quot;&amp;quot;&lt;/h1&gt;
-&lt;h1 id=&#34;schedule-page-publish-date-not-publications-date&#34;&gt;Schedule page publish date (NOT publication&amp;rsquo;s date).&lt;/h1&gt;
-&lt;p&gt;publishDate: &amp;ldquo;2020-11-04T00:00:00Z&amp;rdquo;&lt;/p&gt;
-&lt;h1 id=&#34;publication-type&#34;&gt;Publication type.&lt;/h1&gt;
-&lt;h1 id=&#34;legend-0--uncategorized-1--conference-paper-2--journal-article&#34;&gt;Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;&lt;/h1&gt;
-&lt;h1 id=&#34;3--preprint--working-paper-4--report-5--book-6--book-section&#34;&gt;3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;&lt;/h1&gt;
-&lt;h1 id=&#34;7--thesis-8--patent&#34;&gt;7 = Thesis; 8 = Patent&lt;/h1&gt;
-&lt;p&gt;publication_types: [&amp;ldquo;1&amp;rdquo;]&lt;/p&gt;
-&lt;h1 id=&#34;publication-name-and-optional-abbreviated-publication-name&#34;&gt;Publication name and optional abbreviated publication name.&lt;/h1&gt;
-&lt;p&gt;publication: &amp;ldquo;IEEE-RAS International Conference on Safety, Security, and Rescue Robotics (SSRR)&amp;rdquo;
-publication_short: &amp;quot;&amp;quot;&lt;/p&gt;
-&lt;p&gt;abstract: &amp;quot;&amp;quot;&lt;/p&gt;
-&lt;h1 id=&#34;summary-an-optional-shortened-abstract&#34;&gt;Summary. An optional shortened abstract.&lt;/h1&gt;
-&lt;p&gt;summary: &amp;ldquo;IEEE-RAS International Symposium on Safety, Security, and Rescue Robotics (SSRR), 2020&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;#tags:
-#- Source Themes
-#featured: false&lt;/p&gt;
-&lt;h1 id=&#34;links&#34;&gt;links:&lt;/h1&gt;
-&lt;h1 id=&#34;--name-paper&#34;&gt;- name: &amp;ldquo;Paper&amp;rdquo;&lt;/h1&gt;
-&lt;p&gt;url: &amp;ldquo;&lt;a href=&#34;https://ieeexplore.ieee.org/document/9292620%22&#34;&gt;https://ieeexplore.ieee.org/document/9292620&amp;quot;&lt;/a&gt;
-url_pdf: &#39;&#39;
-url_code: &#39;&#39;
-url_dataset: &#39;&#39;
-url_poster: &#39;&#39;
-url_project: &#39;&#39;
-url_slides: &amp;lsquo;&lt;a href=&#34;https://www.youtube.com/watch?v=F75tUYqeGkU&#39;&#34;&gt;https://www.youtube.com/watch?v=F75tUYqeGkU&#39;&lt;/a&gt;
-url_source: &#39;&amp;rsquo;
-url_video: &amp;lsquo;&lt;a href=&#34;https://www.youtube.com/watch?v=-UAaIe6HAwk&#39;&#34;&gt;https://www.youtube.com/watch?v=-UAaIe6HAwk&#39;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;featured-image&#34;&gt;Featured image&lt;/h1&gt;
-&lt;h1 id=&#34;to-use-add-an-image-named-featuredjpgpng-to-your-pages-folder&#34;&gt;To use, add an image named &lt;code&gt;featured.jpg/png&lt;/code&gt; to your page&amp;rsquo;s folder.&lt;/h1&gt;
-&lt;p&gt;image:
-caption: &amp;lsquo;Image credit: &lt;a href=&#34;https://unsplash.com/photos/jdD8gXaTZsc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;&amp;rsquo;
-focal_point: &amp;quot;&amp;rdquo;
-preview_only: true&lt;/p&gt;
-&lt;h1 id=&#34;associated-projects-optional&#34;&gt;Associated Projects (optional).&lt;/h1&gt;
-&lt;h1 id=&#34;associate-this-publication-with-one-or-more-of-your-projects&#34;&gt;Associate this publication with one or more of your projects.&lt;/h1&gt;
-&lt;h1 id=&#34;simply-enter-your-projects-folder-or-file-name-without-extension&#34;&gt;Simply enter your project&amp;rsquo;s folder or file name without extension.&lt;/h1&gt;
-&lt;h1 id=&#34;eg-internal-project-references-contentprojectinternal-projectindexmd&#34;&gt;E.g. &lt;code&gt;internal-project&lt;/code&gt; references &lt;code&gt;content/project/internal-project/index.md&lt;/code&gt;.&lt;/h1&gt;
-&lt;h1 id=&#34;otherwise-set-projects-&#34;&gt;Otherwise, set &lt;code&gt;projects: []&lt;/code&gt;.&lt;/h1&gt;
-&lt;p&gt;projects: []&lt;/p&gt;
-&lt;h1 id=&#34;slides-optional&#34;&gt;Slides (optional).&lt;/h1&gt;
-&lt;h1 id=&#34;associate-this-publication-with-markdown-slides&#34;&gt;Associate this publication with Markdown slides.&lt;/h1&gt;
-&lt;h1 id=&#34;simply-enter-your-slide-decks-filename-without-extension&#34;&gt;Simply enter your slide deck&amp;rsquo;s filename without extension.&lt;/h1&gt;
-&lt;h1 id=&#34;eg-slides-example-references-contentslidesexampleindexmd&#34;&gt;E.g. &lt;code&gt;slides: &amp;quot;example&amp;quot;&lt;/code&gt; references &lt;code&gt;content/slides/example/index.md&lt;/code&gt;.&lt;/h1&gt;
-&lt;h1 id=&#34;otherwise-set-slides-&#34;&gt;Otherwise, set &lt;code&gt;slides: &amp;quot;&amp;quot;&lt;/code&gt;.&lt;/h1&gt;
-&lt;p&gt;slides: example&amp;mdash;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
     <item>

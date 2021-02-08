@@ -20,6 +20,16 @@
   <url>
     <loc>/zh/author/aoxue-wei/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/aoxue-wei/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/aoxue-wei/"
+                />
   </url>
   
   <url>
@@ -85,6 +95,16 @@
   <url>
     <loc>/zh/author/hoon-jeong/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/hoon-jeong/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/author/hoon-jeong/"
+                />
   </url>
   
   <url>

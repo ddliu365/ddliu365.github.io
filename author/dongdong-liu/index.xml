@@ -5,7 +5,7 @@
     <link>https://ddliu365.github.io/author/dongdong-liu/</link>
       <atom:link href="https://ddliu365.github.io/author/dongdong-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Dongdong Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ddliu365.github.io/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
       <title>Dongdong Liu</title>
@@ -13,11 +13,21 @@
     </image>
     
     <item>
+      <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
+      <link>https://ddliu365.github.io/publications/rollover/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publications/rollover/</guid>
+      <description>&lt;p&gt;The last few years have witnessed an increasing interest in the use of humanoid robots for diverse technological applications. Since the center of mass (CoM) of a typical humannoid lies at a relatively high elevation, such a robot often experiences instability during its operation and has a high likelihood of fall. Thus, it is necessary to endow these robots with a robust method to reduce damage that may result from the impact of a fall. Prior research on humans undergoing a forward fall has revealed that the deployment of a rollover strategy along the longitudinal axis can lower the impact force experienced on the hand to effectively reduce wrist injuries. Yet, analogous research for humanoids has received scant attention. To address this research gap, in this work, we consider the optimal design, implementation, and examination of a rollover strategy&amp;ndash;similar to the one for humans&amp;ndash;for  a humanoid robot by employing a differential dynamic programming (DDP) approach. In addition to providing an overview of the theoretical formulation of our methodology, using results from repeated forward falling experiments with a humanoid, we demonstrate that a reliable application of the rollover strategy considerably reduces the impact force compared with the bimanual fall approach, to protect the wrist of our robot. Moreover, the experiments showcase that the proposed method is also effective in reducing the impact on the torso of the humanoid. With the use of the rollover methodology, a typical humanoid can overcome a key obstacle to its broad adoption and deployment in real-world applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bidirectional LSTM-based Network for Fall Prediction in a Humanoid</title>
       <link>https://ddliu365.github.io/publications/forecast/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/forecast/</guid>
-      <description></description>
+      <description>&lt;p&gt;Fall prediction for humanoid robots is a challenging problem. Increasing interest in the introduction of biped humanoids for diverse applications, e.g., search and rescue in a disaster scenario, necessitates endowing them with robust ways of handling environmental disturbances. We begin the paper with a brief review of previously proposed methods to predict an impending fall event for a biped perturbed by an unknown external force. Next, to improve on prior works, we consider a bidirectional long short-term memory (BLSTM) network, which makes use of historical measurements of system states as inputs, to effectively predict fall probability in real time. Through extensive simulation experiments, which utilize external forces with random magnitudes, directions, locations, and times of application, we demonstrate that the proposed BLSTM network can robustly predict fall events. In contrast to learning-based methods in prior literature, the technique of this paper is shown to reduce false positive rate (FPR) for fall prediction while achieving nearly the same level of lead time in predicting an approaching fall. To perform the sensitive tradeoff between the FPR and lead time, a tuning parameter α is included in our training process to permit a user control over the resulting prediction model. With these contributions, a biped can take advantage of the proposed BLSTM prediction model and tailor its effectiveness to the task at hand.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,15 +35,8 @@
       <link>https://ddliu365.github.io/publications/landing/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/landing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
-      <link>https://ddliu365.github.io/publications/rollover/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/publications/rollover/</guid>
-      <description></description>
+      <description>&lt;p&gt;For many hazard prone activities, such as search, rescue, and exploration, the risk borne by human respondents can be reduced or obviated with the use of biped robots in their stead. As the adoption of robots in manufacturing, warehouses, and healthcare continues to accelerate, and as researchers examine the use of humanoids for collaborating with and even providing companionship to humans, soon, humans would want such robots to be able to engage in all manner of human-like activities. For example, it is envisioned that humanoids will, one day, be capable of parachute landings to aid in search, rescue, and exploration applications, among others. Specifically, one may seek to deploy humanoids to save lives from disasters in remote areas. Addressing such a problem with a rapid and effective response may necessitate dropping humanoids from an aerial vehicle. However, effective realization of such a strategy requires design, development, testing, and validation of novel robotic solutions to overcome significant technical challenges. Thus, we seek to design and test a humanoid that can land safely and stably using a parachute when dropped aerially. To prevent the failure of key components during landing, we examine and analyze the optimization of the landing trajectory of a biped robot. Previously, researchers have designed a parachute landing fall (PLF) motion heuristically by considering only one side of a humanoid. However, such a model cannot be reliably applied to a full humanoid without considering actual contact environment in trajectory optimization. We consider parachute landing based on a full biped robot with a rigid contact model, utilizing the differential dynamic programming (DDP) method. A cost function is constructed with consideration of the acceleration and momentum of the bipedal torso during the landing process. The optimization process gives due consideration to the constraints, namely, the dynamic model of the humanoid with contact conditions, wherein a rigid contact and a Coulomb friction cone are included for simulation and further optimization. The optimized active landing trajectory obtained in the simulation is verified with experiments on a 12 degrees of freedom (DOF) humanoid testbed.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

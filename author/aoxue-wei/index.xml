@@ -17,7 +17,8 @@
       <link>https://ddliu365.github.io/publications/forecast/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/forecast/</guid>
-      <description></description>
+      <description>&lt;p&gt;Fall prediction for humanoid robots is a challenging problem. Increasing interest in the introduction of biped humanoids for diverse applications, e.g., search and rescue in a disaster scenario, necessitates endowing them with robust ways of handling environmental disturbances. We begin the paper with a brief review of previously proposed methods to predict an impending fall event for a biped perturbed by an unknown external force. Next, to improve on prior works, we consider a bidirectional long short-term memory (BLSTM) network, which makes use of historical measurements of system states as inputs, to effectively predict fall probability in real time. Through extensive simulation experiments, which utilize external forces with random magnitudes, directions, locations, and times of application, we demonstrate that the proposed BLSTM network can robustly predict fall events. In contrast to learning-based methods in prior literature, the technique of this paper is shown to reduce false positive rate (FPR) for fall prediction while achieving nearly the same level of lead time in predicting an approaching fall. To perform the sensitive tradeoff between the FPR and lead time, a tuning parameter α is included in our training process to permit a user control over the resulting prediction model. With these contributions, a biped can take advantage of the proposed BLSTM prediction model and tailor its effectiveness to the task at hand.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -5,12 +5,21 @@
     <link>https://ddliu365.github.io/</link>
       <atom:link href="https://ddliu365.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dongdong Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ddliu365.github.io/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
       <title>Dongdong Liu</title>
       <link>https://ddliu365.github.io/</link>
     </image>
+    
+    <item>
+      <title>Humanoid Double-Support Throw</title>
+      <link>https://ddliu365.github.io/project/double_throw/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/double_throw/</guid>
+      <description>&lt;p&gt;Upcoming&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
@@ -72,10 +81,27 @@
     </item>
     
     <item>
-      <title>Humanoid Double-Support Throw</title>
-      <link>https://ddliu365.github.io/project/double_throw/</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/double_throw/</guid>
+      <title>Humanoid Forecast</title>
+      <link>https://ddliu365.github.io/project/forecast/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/forecast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humanoid Landing</title>
+      <link>https://ddliu365.github.io/project/landing/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/landing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ddliu365.github.io/media/landing.gif&#34; alt=&#34;demo&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep mobile printing</title>
+      <link>https://ddliu365.github.io/project/snac/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/snac/</guid>
       <description></description>
     </item>
     
@@ -88,59 +114,27 @@
     </item>
     
     <item>
-      <title>Deep mobile printing</title>
-      <link>https://ddliu365.github.io/project/snac/</link>
+      <title>Sphere Joint Mechanism</title>
+      <link>https://ddliu365.github.io/project/sphere_joint/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/snac/</guid>
+      <guid>https://ddliu365.github.io/project/sphere_joint/</guid>
+      <description>&lt;p&gt;Upcoming&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reconfigurable Parallel Robot</title>
+      <link>https://ddliu365.github.io/project/6urs/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/6urs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fruit Picking Robot</title>
       <link>https://ddliu365.github.io/project/fruit_robot/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/project/fruit_robot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Humanoid Forecast</title>
-      <link>https://ddliu365.github.io/project/forecast/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/forecast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Humanoid Landing</title>
-      <link>https://ddliu365.github.io/project/landing/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/landing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ddliu365.github.io/media/landing.gif&#34; alt=&#34;demo&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hydraulic Pressure Control</title>
-      <link>https://ddliu365.github.io/project/hydraulic_control/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/hydraulic_control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reconfigurable Parallel Robot</title>
-      <link>https://ddliu365.github.io/project/6urs/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/6urs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sphere Joint Mechanism</title>
-      <link>https://ddliu365.github.io/project/sphere_joint/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/project/sphere_joint/</guid>
       <description></description>
     </item>
     
@@ -173,6 +167,14 @@
 &lt;li&gt;Yuhang Lin&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Hydraulic Pressure Control</title>
+      <link>https://ddliu365.github.io/project/hydraulic_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/hydraulic_control/</guid>
+      <description></description>
     </item>
     
   </channel>

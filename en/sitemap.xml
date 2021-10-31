@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ddliu365.github.io/publications/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ddliu365.github.io/zh/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ddliu365.github.io/publications/"
+                />
+  </url>
+  
+  <url>
     <loc>https://ddliu365.github.io/publication-type/1/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -18,8 +33,13 @@
   </url>
   
   <url>
+    <loc>https://ddliu365.github.io/publication/rollover/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ddliu365.github.io/publications/rollover/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -34,7 +54,7 @@
   
   <url>
     <loc>https://ddliu365.github.io/authors/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -48,8 +68,13 @@
   </url>
   
   <url>
+    <loc>https://ddliu365.github.io/tag/control/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ddliu365.github.io/author/dongdong-liu/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -64,7 +89,7 @@
   
   <url>
     <loc>https://ddliu365.github.io/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -78,8 +103,18 @@
   </url>
   
   <url>
+    <loc>https://ddliu365.github.io/project/rollover/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ddliu365.github.io/publication_types/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -93,23 +128,33 @@
   </url>
   
   <url>
-    <loc>https://ddliu365.github.io/publications/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <loc>https://ddliu365.github.io/publication/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/tag/robotics/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/tags/</loc>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://ddliu365.github.io/zh/publications/"
+                href="https://ddliu365.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ddliu365.github.io/publications/"
+                href="https://ddliu365.github.io/tags/"
                 />
   </url>
   
   <url>
     <loc>https://ddliu365.github.io/author/vikram-kapila/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -124,7 +169,7 @@
   
   <url>
     <loc>https://ddliu365.github.io/author/yuhang-lin/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -153,6 +198,11 @@
   </url>
   
   <url>
+    <loc>https://ddliu365.github.io/publication/forecast/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ddliu365.github.io/publications/forecast/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -165,6 +215,11 @@
                 hreflang="en"
                 href="https://ddliu365.github.io/publications/forecast/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/publication/landing/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -243,6 +298,70 @@
   </url>
   
   <url>
+    <loc>https://ddliu365.github.io/project/double_throw/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/tag/learning/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/projectpage/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/snac/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/fruit_robot/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/forecast/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/landing/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/hydraulic_control/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/6urs/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/project/sphere_joint/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddliu365.github.io/teaching/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ddliu365.github.io/zh/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ddliu365.github.io/teaching/"
+                />
+  </url>
+  
+  <url>
     <loc>https://ddliu365.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -258,34 +377,6 @@
   
   <url>
     <loc>https://ddliu365.github.io/author/dongdong-liu/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ddliu365.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://ddliu365.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ddliu365.github.io/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ddliu365.github.io/teaching/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://ddliu365.github.io/zh/teaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ddliu365.github.io/teaching/"
-                />
   </url>
   
 </urlset>

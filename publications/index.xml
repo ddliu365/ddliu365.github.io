@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Dongdong Liu</title>
+    <title>Dongdong Liu</title>
     <link>https://ddliu365.github.io/publications/</link>
       <atom:link href="https://ddliu365.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <description>Dongdong Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ddliu365.github.io/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
-      <title>Publications</title>
+      <title>Dongdong Liu</title>
       <link>https://ddliu365.github.io/publications/</link>
     </image>
     
     <item>
       <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
       <link>https://ddliu365.github.io/publications/rollover/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/rollover/</guid>
       <description>&lt;p&gt;The last few years have witnessed an increasing interest in the use of humanoid robots for diverse technological applications. Since the center of mass (CoM) of a typical humannoid lies at a relatively high elevation, such a robot often experiences instability during its operation and has a high likelihood of fall. Thus, it is necessary to endow these robots with a robust method to reduce damage that may result from the impact of a fall. Prior research on humans undergoing a forward fall has revealed that the deployment of a rollover strategy along the longitudinal axis can lower the impact force experienced on the hand to effectively reduce wrist injuries. Yet, analogous research for humanoids has received scant attention. To address this research gap, in this work, we consider the optimal design, implementation, and examination of a rollover strategy&amp;ndash;similar to the one for humans&amp;ndash;for  a humanoid robot by employing a differential dynamic programming (DDP) approach. In addition to providing an overview of the theoretical formulation of our methodology, using results from repeated forward falling experiments with a humanoid, we demonstrate that a reliable application of the rollover strategy considerably reduces the impact force compared with the bimanual fall approach, to protect the wrist of our robot. Moreover, the experiments showcase that the proposed method is also effective in reducing the impact on the torso of the humanoid. With the use of the rollover methodology, a typical humanoid can overcome a key obstacle to its broad adoption and deployment in real-world applications.&lt;/p&gt;
 </description>

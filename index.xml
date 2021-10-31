@@ -5,7 +5,7 @@
     <link>https://ddliu365.github.io/</link>
       <atom:link href="https://ddliu365.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dongdong Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ddliu365.github.io/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
       <title>Dongdong Liu</title>
@@ -14,11 +14,35 @@
     
     <item>
       <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
+      <link>https://ddliu365.github.io/publication/rollover/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publication/rollover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
       <link>https://ddliu365.github.io/publications/rollover/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/rollover/</guid>
       <description>&lt;p&gt;The last few years have witnessed an increasing interest in the use of humanoid robots for diverse technological applications. Since the center of mass (CoM) of a typical humannoid lies at a relatively high elevation, such a robot often experiences instability during its operation and has a high likelihood of fall. Thus, it is necessary to endow these robots with a robust method to reduce damage that may result from the impact of a fall. Prior research on humans undergoing a forward fall has revealed that the deployment of a rollover strategy along the longitudinal axis can lower the impact force experienced on the hand to effectively reduce wrist injuries. Yet, analogous research for humanoids has received scant attention. To address this research gap, in this work, we consider the optimal design, implementation, and examination of a rollover strategy&amp;ndash;similar to the one for humans&amp;ndash;for  a humanoid robot by employing a differential dynamic programming (DDP) approach. In addition to providing an overview of the theoretical formulation of our methodology, using results from repeated forward falling experiments with a humanoid, we demonstrate that a reliable application of the rollover strategy considerably reduces the impact force compared with the bimanual fall approach, to protect the wrist of our robot. Moreover, the experiments showcase that the proposed method is also effective in reducing the impact on the torso of the humanoid. With the use of the rollover methodology, a typical humanoid can overcome a key obstacle to its broad adoption and deployment in real-world applications.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Humanoid Rollover</title>
+      <link>https://ddliu365.github.io/project/rollover/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/rollover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bidirectional LSTM-based Network for Fall Prediction in a Humanoid</title>
+      <link>https://ddliu365.github.io/publication/forecast/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publication/forecast/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -32,6 +56,14 @@
     
     <item>
       <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
+      <link>https://ddliu365.github.io/publication/landing/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publication/landing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
       <link>https://ddliu365.github.io/publications/landing/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/landing/</guid>
@@ -40,7 +72,80 @@
     </item>
     
     <item>
-      <title>Teaching</title>
+      <title>Humanoid Double-Support Throw</title>
+      <link>https://ddliu365.github.io/project/double_throw/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/double_throw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landing Page</title>
+      <link>https://ddliu365.github.io/projectpage/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/projectpage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep mobile printing</title>
+      <link>https://ddliu365.github.io/project/snac/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/snac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fruit Picking Robot</title>
+      <link>https://ddliu365.github.io/project/fruit_robot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/fruit_robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humanoid Forecast</title>
+      <link>https://ddliu365.github.io/project/forecast/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/forecast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humanoid Landing</title>
+      <link>https://ddliu365.github.io/project/landing/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/landing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ddliu365.github.io/media/landing.gif&#34; alt=&#34;demo&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hydraulic Pressure Control</title>
+      <link>https://ddliu365.github.io/project/hydraulic_control/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/hydraulic_control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconfigurable Parallel Robot</title>
+      <link>https://ddliu365.github.io/project/6urs/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/6urs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sphere Joint Mechanism</title>
+      <link>https://ddliu365.github.io/project/sphere_joint/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/project/sphere_joint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://ddliu365.github.io/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/teaching/</guid>

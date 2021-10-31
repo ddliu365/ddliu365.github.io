@@ -5,7 +5,7 @@
     <link>https://ddliu365.github.io/author/vikram-kapila/</link>
       <atom:link href="https://ddliu365.github.io/author/vikram-kapila/index.xml" rel="self" type="application/rss+xml" />
     <description>Vikram Kapila</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ddliu365.github.io/images/icon_hu5d0816a8c21410d3f8285dd78450ac45_5023_512x512_fill_lanczos_center_2.png</url>
       <title>Vikram Kapila</title>
@@ -14,11 +14,27 @@
     
     <item>
       <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
+      <link>https://ddliu365.github.io/publication/rollover/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publication/rollover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid</title>
       <link>https://ddliu365.github.io/publications/rollover/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://ddliu365.github.io/publications/rollover/</guid>
       <description>&lt;p&gt;The last few years have witnessed an increasing interest in the use of humanoid robots for diverse technological applications. Since the center of mass (CoM) of a typical humannoid lies at a relatively high elevation, such a robot often experiences instability during its operation and has a high likelihood of fall. Thus, it is necessary to endow these robots with a robust method to reduce damage that may result from the impact of a fall. Prior research on humans undergoing a forward fall has revealed that the deployment of a rollover strategy along the longitudinal axis can lower the impact force experienced on the hand to effectively reduce wrist injuries. Yet, analogous research for humanoids has received scant attention. To address this research gap, in this work, we consider the optimal design, implementation, and examination of a rollover strategy&amp;ndash;similar to the one for humans&amp;ndash;for  a humanoid robot by employing a differential dynamic programming (DDP) approach. In addition to providing an overview of the theoretical formulation of our methodology, using results from repeated forward falling experiments with a humanoid, we demonstrate that a reliable application of the rollover strategy considerably reduces the impact force compared with the bimanual fall approach, to protect the wrist of our robot. Moreover, the experiments showcase that the proposed method is also effective in reducing the impact on the torso of the humanoid. With the use of the rollover methodology, a typical humanoid can overcome a key obstacle to its broad adoption and deployment in real-world applications.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Bidirectional LSTM-based Network for Fall Prediction in a Humanoid</title>
+      <link>https://ddliu365.github.io/publication/forecast/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publication/forecast/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -28,6 +44,14 @@
       <guid>https://ddliu365.github.io/publications/forecast/</guid>
       <description>&lt;p&gt;Fall prediction for humanoid robots is a challenging problem. Increasing interest in the introduction of biped humanoids for diverse applications, e.g., search and rescue in a disaster scenario, necessitates endowing them with robust ways of handling environmental disturbances. We begin the paper with a brief review of previously proposed methods to predict an impending fall event for a biped perturbed by an unknown external force. Next, to improve on prior works, we consider a bidirectional long short-term memory (BLSTM) network, which makes use of historical measurements of system states as inputs, to effectively predict fall probability in real time. Through extensive simulation experiments, which utilize external forces with random magnitudes, directions, locations, and times of application, we demonstrate that the proposed BLSTM network can robustly predict fall events. In contrast to learning-based methods in prior literature, the technique of this paper is shown to reduce false positive rate (FPR) for fall prediction while achieving nearly the same level of lead time in predicting an approaching fall. To perform the sensitive tradeoff between the FPR and lead time, a tuning parameter α is included in our training process to permit a user control over the resulting prediction model. With these contributions, a biped can take advantage of the proposed BLSTM prediction model and tailor its effectiveness to the task at hand.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
+      <link>https://ddliu365.github.io/publication/landing/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ddliu365.github.io/publication/landing/</guid>
+      <description></description>
     </item>
     
     <item>

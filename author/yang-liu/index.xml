@@ -20,14 +20,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>DDP-based Parachute Landing Optimization for a Humanoid</title>
-      <link>https://ddliu365.github.io/publications/landing/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://ddliu365.github.io/publications/landing/</guid>
-      <description>&lt;p&gt;For many hazard prone activities, such as search, rescue, and exploration, the risk borne by human respondents can be reduced or obviated with the use of biped robots in their stead. As the adoption of robots in manufacturing, warehouses, and healthcare continues to accelerate, and as researchers examine the use of humanoids for collaborating with and even providing companionship to humans, soon, humans would want such robots to be able to engage in all manner of human-like activities. For example, it is envisioned that humanoids will, one day, be capable of parachute landings to aid in search, rescue, and exploration applications, among others. Specifically, one may seek to deploy humanoids to save lives from disasters in remote areas. Addressing such a problem with a rapid and effective response may necessitate dropping humanoids from an aerial vehicle. However, effective realization of such a strategy requires design, development, testing, and validation of novel robotic solutions to overcome significant technical challenges. Thus, we seek to design and test a humanoid that can land safely and stably using a parachute when dropped aerially. To prevent the failure of key components during landing, we examine and analyze the optimization of the landing trajectory of a biped robot. Previously, researchers have designed a parachute landing fall (PLF) motion heuristically by considering only one side of a humanoid. However, such a model cannot be reliably applied to a full humanoid without considering actual contact environment in trajectory optimization. We consider parachute landing based on a full biped robot with a rigid contact model, utilizing the differential dynamic programming (DDP) method. A cost function is constructed with consideration of the acceleration and momentum of the bipedal torso during the landing process. The optimization process gives due consideration to the constraints, namely, the dynamic model of the humanoid with contact conditions, wherein a rigid contact and a Coulomb friction cone are included for simulation and further optimization. The optimized active landing trajectory obtained in the simulation is verified with experiments on a 12 degrees of freedom (DOF) humanoid testbed.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

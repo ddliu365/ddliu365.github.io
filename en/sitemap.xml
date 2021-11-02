@@ -70,6 +70,16 @@
   <url>
     <loc>https://ddliu365.github.io/publication/rollover/</loc>
     <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ddliu365.github.io/zh/publication/rollover/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ddliu365.github.io/publication/rollover/"
+                />
   </url>
   
   <url>
@@ -125,6 +135,16 @@
   <url>
     <loc>https://ddliu365.github.io/publication/</loc>
     <lastmod>2021-08-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ddliu365.github.io/zh/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ddliu365.github.io/publication/"
+                />
   </url>
   
   <url>
@@ -175,11 +195,31 @@
   <url>
     <loc>https://ddliu365.github.io/publication/forecast/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ddliu365.github.io/zh/publication/forecast/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ddliu365.github.io/publication/forecast/"
+                />
   </url>
   
   <url>
     <loc>https://ddliu365.github.io/publication/landing/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ddliu365.github.io/zh/publication/landing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ddliu365.github.io/publication/landing/"
+                />
   </url>
   
   <url>

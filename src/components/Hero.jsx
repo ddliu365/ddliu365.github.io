@@ -90,7 +90,6 @@ const Hero = () => {
                                 { icon: Mail, href: `mailto:${content.email}`, label: "Email" },
                                 { icon: Github, href: content.socials.github, label: "GitHub" },
                                 { icon: Linkedin, href: content.socials.linkedin, label: "LinkedIn" },
-                                { icon: Twitter, href: content.socials.twitter, label: "Twitter" },
                                 { icon: GraduationCap, href: content.socials.scholar, label: "Scholar" },
                             ].map(({ icon: Icon, href, label }) => (
                                 <a

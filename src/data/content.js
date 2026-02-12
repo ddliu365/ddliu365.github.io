@@ -8,9 +8,9 @@ export const content = {
     socials: {
         scholar: "https://scholar.google.com/citations?user=pfaSYhsAAAAJ&hl=en",
         github: "https://github.com/ddliu365",
-        linkedin: "https://www.linkedin.com/in/dongdong-liu-367642128/",
-        twitter: "https://twitter.com/ddliu365"
+        linkedin: "https://www.linkedin.com/in/dongdong-liu-367642128/"
     },
+    lastUpdated: "February 2026",
     bio: [
         "I am a Ph.D. in Humanoid Robotics with 3.5 years of industrial R&D experience at Apple. My expertise lies in **Whole-Body Control (WBC), MPC, and Sim-to-Real transfer** for high-DoF manipulators and humanoids.",
         "Currently, I spearhead the technical strategy for a scalable Robotic HIL Simulation System at Apple, enabling cross-functional scientific teams to engineer and validate novel health algorithms.",

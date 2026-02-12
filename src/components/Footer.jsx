@@ -3,11 +3,11 @@ import { content } from '../data/content';
 
 const Footer = () => {
     useEffect(() => {
-        // Load MapMyVisitors Globe Script
+        // Load MapMyVisitors Map Script
         const script = document.createElement('script');
         script.type = 'text/javascript';
-        script.id = 'mmvst_globe';
-        script.src = "//mapmyvisitors.com/globe.js?d=U6fy5o6WfZnFlM_ZejyssGtr36hPNPmcfpyDbiASbHM";
+        script.id = 'mapmyvisitors';
+        script.src = "//mapmyvisitors.com/map.js?d=8yhvocHMhiwVnBrQ7Vokk7OYe_zl-h2fK3oLoRcb7ZY&cl=ffffff&w=a";
         script.async = true;
 
         const container = document.getElementById('globe-container');
@@ -66,11 +66,11 @@ const Footer = () => {
 
                             <div className="hidden sm:block w-px h-10 bg-slate-800"></div>
 
-                            {/* Visitor Globe */}
+                            {/* Visitor Globe/Map */}
                             <div className="flex flex-col items-center gap-2">
                                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Global Traffic</span>
-                                <div id="globe-container" className="flex items-center justify-center min-w-[150px] overflow-hidden opacity-80 hover:opacity-100 transition-opacity">
-                                    {/* The MapMyVisitors Globe will be injected here */}
+                                <div id="globe-container" className="flex items-center justify-center min-w-[150px] overflow-hidden opacity-90 hover:opacity-100 transition-opacity">
+                                    {/* The MapMyVisitors Widget will be injected here */}
                                 </div>
                             </div>
                         </div>

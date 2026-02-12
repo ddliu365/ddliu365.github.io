@@ -244,9 +244,7 @@ export const content = {
             conference: "IEEE International Conference on Mechatronics and Automation (ICMA)",
             year: "2021",
             links: {
-                pdf: "https://ieeexplore.ieee.org/document/9512722",
-                video: "https://www.youtube.com/watch?v=Vu0_0Rl1qzQ",
-                project: "/project/rollover/"
+                pdf: "https://ieeexplore.ieee.org/document/9512722"
             }
         },
         {

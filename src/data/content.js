@@ -216,11 +216,11 @@ export const content = {
     ],
     publications: [
         {
-            title: "Motion Planning and Control of Active Robot in Orthopedic Surgery by CDMP-Based Imitation Learning and Constrained Optimization",
-            authors: "Xingqiang Jian, Yibin Song, Dongdong Liu, et al.",
-            conference: "IEEE Transactions on Automation Science and Engineering (T-ASE)",
-            year: "2025",
-            status: "Accepted"
+            title: "Spatially covariant image registration with text prompts",
+            authors: "Hang Zhang, Xiang Chen, Rongguang Wang, Renjiu Hu, Dongdong Liu, and Guangming Li",
+            conference: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
+            year: "2024",
+            status: "Published"
         },
         {
             title: "Whole-Body Optimization of Long-Distance Throw for a Humanoid in Double Support",

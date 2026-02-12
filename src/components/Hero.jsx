@@ -25,26 +25,24 @@ const Hero = () => {
     };
 
     return (
-        <section id="home" className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-slate-50">
-            {/* Dynamic Background Shapes */}
-            <motion.div
-                animate={{
-                    scale: [1, 1.2, 1],
-                    rotate: [0, 90, 0],
-                    x: [0, 50, 0]
-                }}
-                transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-20 right-[-100px] w-[600px] h-[600px] bg-blue-100/60 rounded-full blur-[80px] -z-10"
-            ></motion.div>
-            <motion.div
-                animate={{
-                    scale: [1, 1.3, 1],
-                    x: [0, -30, 0],
-                    y: [0, 50, 0]
-                }}
-                transition={{ duration: 15, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute bottom-[-50px] left-[-100px] w-[500px] h-[500px] bg-cyan-100/50 rounded-full blur-[80px] -z-10"
-            ></motion.div>
+        <section id="home" className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-slate-900 border-b border-slate-800">
+            {/* Background Video */}
+            <div className="absolute inset-0 z-0">
+                <div className="absolute inset-0 bg-slate-900/60 z-10 backdrop-blur-[2px]"></div>
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover opacity-50"
+                >
+                    <source src="/video.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+            {/* Subtle Gradient Overlays */}
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-900/50 via-transparent to-transparent z-10"></div>
 
             <div className="container mx-auto px-6 max-w-6xl">
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-16">
@@ -72,22 +70,22 @@ const Hero = () => {
                         animate="visible"
                         className="max-w-3xl pt-4 text-center md:text-left"
                     >
-                        <motion.h1 variants={itemVariants} className="text-5xl md:text-8xl font-bold tracking-tight text-slate-900 mb-2">
+                        <motion.h1 variants={itemVariants} className="text-5xl md:text-8xl font-bold tracking-tight text-white mb-2 relative z-20">
                             {content.name}
                         </motion.h1>
-                        <motion.h2 variants={itemVariants} className="text-xl md:text-3xl text-blue-600 font-semibold mb-8">
+                        <motion.h2 variants={itemVariants} className="text-xl md:text-3xl text-blue-400 font-semibold mb-8 relative z-20">
                             {content.title}
                         </motion.h2>
 
-                        <motion.div variants={itemVariants} className="space-y-4 text-slate-600 text-lg md:text-xl leading-relaxed font-light">
+                        <motion.div variants={itemVariants} className="space-y-4 text-slate-300 text-lg md:text-xl leading-relaxed font-light relative z-20">
                             {content.bio.map((paragraph, index) => (
                                 <p key={index} dangerouslySetInnerHTML={{
-                                    __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<span class="text-slate-900 font-semibold">$1</span>')
+                                    __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<span class="text-white font-semibold">$1</span>')
                                 }} />
                             ))}
                         </motion.div>
 
-                        <motion.div variants={itemVariants} className="flex flex-wrap justify-center md:justify-start gap-4 mt-10">
+                        <motion.div variants={itemVariants} className="flex flex-wrap justify-center md:justify-start gap-4 mt-10 relative z-20">
                             {[
                                 { icon: Mail, href: `mailto:${content.email}`, label: "Email" },
                                 { icon: Github, href: content.socials.github, label: "GitHub" },

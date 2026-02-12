@@ -28,7 +28,7 @@ export const content = {
             period: "08/2022 - Present",
             location: "Cupertino, CA",
             description: [
-                "Spearheaded the technical strategy for a scalable Robotic HIL Simulation System, leading a team of Senior/Staff engineers to architect the infrastructure for sensor algorithm validation.",
+                "Spearheaded the technical strategy for a scalable Robotic HIL Simulation System.",
                 "Developed a customized QP optimization solver to map human motion to industrial robot.",
                 "Implemented/Deployed a pipeline on robot physical system with real-time kernel for precise motion tracking across orgs.",
                 "Built a robotics lab from the ground up, integrating 4 industrial robots and architecting the software infra for scalable R&D.",

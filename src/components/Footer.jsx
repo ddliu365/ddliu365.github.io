@@ -3,24 +3,21 @@ import { content } from '../data/content';
 
 const Footer = () => {
     useEffect(() => {
-        // Load Supercounters Map Script
-        const mapScript = document.createElement('script');
-        mapScript.src = "https://widget.supercounters.com/ssl/map.js";
-        mapScript.async = true;
-        mapScript.onload = () => {
-            if (window.sc_map) {
-                window.sc_map(1729511, "112288", "ff0000", 40);
-            }
-        };
+        // Load MapMyVisitors Globe Script
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.id = 'mmvst_globe';
+        script.src = "//mapmyvisitors.com/globe.js?d=U6fy5o6WfZnFlM_ZejyssGtr36hPNPmcfpyDbiASbHM";
+        script.async = true;
 
-        const mapContainer = document.getElementById('map-container');
-        if (mapContainer) {
-            mapContainer.appendChild(mapScript);
+        const container = document.getElementById('globe-container');
+        if (container) {
+            container.appendChild(script);
         }
 
         return () => {
-            if (mapContainer && mapScript.parentNode === mapContainer) {
-                mapContainer.removeChild(mapScript);
+            if (container && script.parentNode === container) {
+                container.removeChild(script);
             }
         };
     }, []);
@@ -69,14 +66,11 @@ const Footer = () => {
 
                             <div className="hidden sm:block w-px h-10 bg-slate-800"></div>
 
-                            {/* Visitor Map (Supercounters) */}
+                            {/* Visitor Globe */}
                             <div className="flex flex-col items-center gap-2">
                                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Global Traffic</span>
-                                <div id="map-container" className="flex items-center justify-center min-h-[40px] opacity-80 hover:opacity-100 transition-opacity">
-                                    {/* Supercounters Map will be injected here */}
-                                    <noscript>
-                                        <a href="http://www.supercounters.com/">free online counter</a>
-                                    </noscript>
+                                <div id="globe-container" className="flex items-center justify-center min-w-[150px] overflow-hidden opacity-80 hover:opacity-100 transition-opacity">
+                                    {/* The MapMyVisitors Globe will be injected here */}
                                 </div>
                             </div>
                         </div>

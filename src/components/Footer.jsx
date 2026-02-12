@@ -58,13 +58,8 @@ const Footer = () => {
                             <div className="flex flex-col items-center gap-2">
                                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Total Visits</span>
                                 <div className="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-700/50 shadow-inner">
-                                    <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
-                                        <img
-                                            src="https://hitwebcounter.com/counter/counter.php?page=ddliu365_portfolio&style=0007&nbdigits=6&type=page&initCount=0"
-                                            title="Free Counter"
-                                            alt="Free Counter"
-                                            className="h-5 opacity-90 hover:opacity-100 transition-opacity"
-                                        />
+                                    <a href="https://www.hitwebcounter.com/" target="_blank">
+                                        <img src="https://hitwebcounter.com/counter/counter.php?page=21476499&style=0001&nbdigits=5&type=page&initCount=8088" title="Free Tools" Alt="Free Tools" border="0" className="h-5 opacity-90 hover:opacity-100 transition-opacity" />
                                     </a>
                                 </div>
                             </div>

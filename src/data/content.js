@@ -77,7 +77,7 @@ export const content = {
     projects: [
         {
             id: "aloha",
-            title: "Aloha Repo Project",
+            title: "Aloha Repro Project",
             subtitle: "Low-Cost Teleoperation & Imitation Learning Infrastructure",
             description: "Full-stack imitation learning pipeline based on ACT/Diffusion Policy. Deployed and validated on physical hardware.",
             media: "/img/portfolio/aloha.jpg",

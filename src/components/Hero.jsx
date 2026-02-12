@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { content } from '../data/content';
-import { Mail, Github, Linkedin, Twitter, FileText, ChevronDown } from 'lucide-react';
+import { Mail, Github, Linkedin, Twitter, GraduationCap, ChevronDown } from 'lucide-react';
 
 const Hero = () => {
     // Stagger variant for text elements
@@ -91,7 +91,7 @@ const Hero = () => {
                                 { icon: Github, href: content.socials.github, label: "GitHub" },
                                 { icon: Linkedin, href: content.socials.linkedin, label: "LinkedIn" },
                                 { icon: Twitter, href: content.socials.twitter, label: "Twitter" },
-                                { icon: FileText, href: content.socials.scholar, label: "Scholar" },
+                                { icon: GraduationCap, href: content.socials.scholar, label: "Scholar" },
                             ].map(({ icon: Icon, href, label }) => (
                                 <a
                                     key={label}

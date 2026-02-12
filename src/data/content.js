@@ -24,7 +24,7 @@ export const content = {
     experience: [
         {
             company: "Apple",
-            role: "Software Development Engineer",
+            role: "Robotics Engineer",
             period: "08/2022 - Present",
             location: "Cupertino, CA",
             description: [

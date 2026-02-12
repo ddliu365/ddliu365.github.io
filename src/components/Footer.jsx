@@ -3,21 +3,24 @@ import { content } from '../data/content';
 
 const Footer = () => {
     useEffect(() => {
-        // Load MapMyVisitors Globe Script
-        const script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.id = 'mmvst_globe';
-        script.src = "//mapmyvisitors.com/globe.js?d=qnXaKL7Xoup1Mw0O-sps2S-UKyvOZ4b8UDtct9Bc724";
-        script.async = true;
+        // Load Supercounters Map Script
+        const mapScript = document.createElement('script');
+        mapScript.src = "https://widget.supercounters.com/ssl/map.js";
+        mapScript.async = true;
+        mapScript.onload = () => {
+            if (window.sc_map) {
+                window.sc_map(1729511, "112288", "ff0000", 40);
+            }
+        };
 
-        const container = document.getElementById('globe-container');
-        if (container) {
-            container.appendChild(script);
+        const mapContainer = document.getElementById('map-container');
+        if (mapContainer) {
+            mapContainer.appendChild(mapScript);
         }
 
         return () => {
-            if (container && script.parentNode === container) {
-                container.removeChild(script);
+            if (mapContainer && mapScript.parentNode === mapContainer) {
+                mapContainer.removeChild(mapScript);
             }
         };
     }, []);
@@ -59,18 +62,21 @@ const Footer = () => {
                                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Total Visits</span>
                                 <div className="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-700/50 shadow-inner">
                                     <a href="https://www.hitwebcounter.com/" target="_blank">
-                                        <img src="https://hitwebcounter.com/counter/counter.php?page=21476499&style=0001&nbdigits=5&type=page&initCount=8088" title="Free Tools" Alt="Free Tools" border="0" className="h-5 opacity-90 hover:opacity-100 transition-opacity" />
+                                        <img src="https://hitwebcounter.com/counter/counter.php?page=21476500&style=0007&nbdigits=5&type=page&initCount=8088" title="Free Tools" Alt="Free Tools" border="0" className="h-5 opacity-90 hover:opacity-100 transition-opacity" />
                                     </a>
                                 </div>
                             </div>
 
                             <div className="hidden sm:block w-px h-10 bg-slate-800"></div>
 
-                            {/* Visitor Globe */}
+                            {/* Visitor Map (Supercounters) */}
                             <div className="flex flex-col items-center gap-2">
                                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Global Traffic</span>
-                                <div id="globe-container" className="flex items-center justify-center min-w-[150px] overflow-hidden opacity-80 hover:opacity-100 transition-opacity">
-                                    {/* The MapMyVisitors Globe will be injected here */}
+                                <div id="map-container" className="flex items-center justify-center min-h-[40px] opacity-80 hover:opacity-100 transition-opacity">
+                                    {/* Supercounters Map will be injected here */}
+                                    <noscript>
+                                        <a href="http://www.supercounters.com/">free online counter</a>
+                                    </noscript>
                                 </div>
                             </div>
                         </div>

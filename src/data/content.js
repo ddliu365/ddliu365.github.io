@@ -76,7 +76,7 @@ export const content = {
             title: "The Aloha Project",
             subtitle: "Low-Cost Teleoperation & Imitation Learning Infrastructure",
             description: "Full-stack imitation learning pipeline based on ACT/Diffusion Policy. (Content coming soon)",
-            media: "https://images.unsplash.com/photo-1531746790731-6c41d256ef16?auto=format&fit=crop&q=80&w=800", // Generic Placeholder
+            media: "https://mobile-aloha.github.io/static/images/hardware.jpg",
             tags: ["Imitation Learning", "Isaac Lab", "Sim-to-Real"],
             featured: true
         },
@@ -88,79 +88,6 @@ export const content = {
             media: "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&q=80&w=800", // Generic Placeholder
             tags: ["Teleoperation", "WebRTC", "Whole-Body Control"],
             featured: true
-        },
-        {
-            id: "6urs",
-            title: "Reconfigurable Parallel Robot",
-            subtitle: "Mechanism Design",
-            description: "Designed a 6-URS parallel robot that can reconfigure into a walking platform. Replacing serial structures with parallel ones to achieve better stability and load capacity. Completed calculation of motor torque/speed and ADAMS simulations.",
-            media: "/img/projects/6urs.png",
-            tags: ["Robotics", "Mechanism Design", "ADAMS"],
-            details: `
-                ### Design and Development of Automatically Reconfigurable Parallel Walking Robot
-                This project abandons the notion that the structure of the walking robot is mostly based on the serial structure. It presents the idea that a robot with parallel structure can get even better performance while realizing the walking function.
-                
-                Using 6-URS parallel structure as the basic structure of the walking robot, and serial structure as the basis for a reconfigurable robot, this project completes the calculation of the motor torque, speed, and selects appropriate motor types.
-                
-                **Key Achievements:**
-                - Designed the Parallel and Reconfigurable Robot Device including mechanical and gait locomotion design.
-                - Developed 6 degrees of freedom Parallel Robot and 5 degrees of freedom Serial Robot.
-                - Simulated performances including kinematics and dynamics with ADAMS.
-                
-                **Mechanism Logic:**
-                1. Lock one freedom of rotation joint in non-reconfigurable branch.
-                2. Detach the sphere joint and free the reconfigurable branch.
-                3. Adjust manipulator position to grab objects (e.g., minerals).
-                4. Deposit object and re-engage sphere joint for walking mode.
-            `
-        },
-        {
-            id: "fruit_robot",
-            title: "Fruit Picking Robot",
-            subtitle: "Smart Robot Car",
-            description: "Hardware Development and Programming of Smart Fruit Picking Robot Car. Implemented using MCS-51 microcontroller for car movement and manipulator control. Won 3rd prize in Smart-Car Contest.",
-            media: "/img/projects/fruit_robot.jpeg",
-            tags: ["Control", "Robotics", "System Design"],
-            details: `
-                ### Hardware Development and Programming of Smart Fruit Picking Robot Car
-                Due to the complexity of fruit picking, automation is traditionally difficult. This project realizes automatic fruit picking, including manipulator design and control system implementation.
-                
-                **Key Features:**
-                - **Controller**: Single chip MCS-51 used to control car movement and manipulators.
-                - **Functions**: Dodge barriers, Follow traces, Pick an apple.
-                - **Mechanical Design**: Car Body Design, Work Space Analysis, Robot Arm Design.
-                - **Electrical Design**: Motor Driven Schematic, Circuit Design.
-                
-                This project involved full hardware assembly and low-level programming to coordinate the mobile base with the manipulation arm.
-            `
-        },
-        {
-            id: "hydraulic_control",
-            title: "Hydraulic Pressure Control",
-            subtitle: "Fuzzy-PID Control",
-            description: "Structural Design and Experiment with Fuzzy-PID Control for the Hydraulic Pressure Control System. Achieved 0.4 bar error stability.",
-            media: "/img/projects/hydraulic_control.png",
-            tags: ["Control", "Fuzzy-PID", "Hydraulics"],
-            details: `
-                ### Structural Design and Experiment with Fuzzy-PID Control
-                This research is based on an industrial project aiming to design an on-land experimental device to monitor pressure environments in deep ocean. The target is to accurately control pressure in a closed chamber full of water using a hydraulic-power system.
-                
-                **Challenge:**
-                The mathematical model of the chamber is difficult to construct, and the system is highly nonlinear. Traditional PID control suffers from high following errors in dynamic states and high overshoot.
-                
-                **Solution:**
-                Proposed a controlling strategy with adjustable parameters in PID based on Fuzzy Logic (Fuzzy-PID).
-                
-                **Results:**
-                - **Stable Condition**: Error limited to 0.4 bar.
-                - **Dynamic Condition**: System follows control target curve without distortion; error limited to 2.5% FS (10-100bar).
-                - **Comparison**: Fuzzy-PID decreases overshoot and settles faster compared to traditional PID.
-                
-                **Implementation:**
-                - Designed mechanical device including pressure-transfer device (using rubber capsule to separate oil and water).
-                - Built Electric System and Communication Schematic based on xPC target-host.
-                - Developed GUI with C# and controller model with Matlab-Simulink.
-            `
         },
         {
             id: "rollover",
@@ -204,6 +131,79 @@ export const content = {
             media: "/img/projects/snac.jpg",
             tags: ["Learning", "Navigation"],
             link: "https://ai4ce.github.io/SNAC/"
+        },
+        {
+            id: "6urs",
+            title: "Reconfigurable Parallel Robot",
+            subtitle: "Mechanism Design",
+            description: "Designed a 6-URS parallel robot that can reconfigure into a walking platform. Replacing serial structures with parallel ones to achieve better stability and load capacity. Completed calculation of motor torque/speed and ADAMS simulations.",
+            media: "/img/projects/6urs.png",
+            tags: ["Robotics", "Mechanism Design", "ADAMS"],
+            details: `
+                ### Design and Development of Automatically Reconfigurable Parallel Walking Robot
+                This project abandons the notion that the structure of the walking robot is mostly based on the serial structure. It presents the idea that a robot with parallel structure can get even better performance while realizing the walking function.
+                
+                Using 6-URS parallel structure as the basic structure of the walking robot, and serial structure as the basis for a reconfigurable robot, this project completes the calculation of the motor torque, speed, and selects appropriate motor types.
+                
+                **Key Achievements:**
+                - Designed the Parallel and Reconfigurable Robot Device including mechanical and gait locomotion design.
+                - Developed 6 degrees of freedom Parallel Robot and 5 degrees of freedom Serial Robot.
+                - Simulated performances including kinematics and dynamics with ADAMS.
+                
+                **Mechanism Logic:**
+                1. Lock one freedom of rotation joint in non-reconfigurable branch.
+                2. Detach the sphere joint and free the reconfigurable branch.
+                3. Adjust manipulator position to grab objects (e.g., minerals).
+                4. Deposit object and re-engage sphere joint for walking mode.
+            `
+        },
+        {
+            id: "hydraulic_control",
+            title: "Hydraulic Pressure Control",
+            subtitle: "Fuzzy-PID Control",
+            description: "Structural Design and Experiment with Fuzzy-PID Control for the Hydraulic Pressure Control System. Achieved 0.4 bar error stability.",
+            media: "/img/projects/hydraulic_control.png",
+            tags: ["Control", "Fuzzy-PID", "Hydraulics"],
+            details: `
+                ### Structural Design and Experiment with Fuzzy-PID Control
+                This research is based on an industrial project aiming to design an on-land experimental device to monitor pressure environments in deep ocean. The target is to accurately control pressure in a closed chamber full of water using a hydraulic-power system.
+                
+                **Challenge:**
+                The mathematical model of the chamber is difficult to construct, and the system is highly nonlinear. Traditional PID control suffers from high following errors in dynamic states and high overshoot.
+                
+                **Solution:**
+                Proposed a controlling strategy with adjustable parameters in PID based on Fuzzy Logic (Fuzzy-PID).
+                
+                **Results:**
+                - **Stable Condition**: Error limited to 0.4 bar.
+                - **Dynamic Condition**: System follows control target curve without distortion; error limited to 2.5% FS (10-100bar).
+                - **Comparison**: Fuzzy-PID decreases overshoot and settles faster compared to traditional PID.
+                
+                **Implementation:**
+                - Designed mechanical device including pressure-transfer device (using rubber capsule to separate oil and water).
+                - Built Electric System and Communication Schematic based on xPC target-host.
+                - Developed GUI with C# and controller model with Matlab-Simulink.
+            `
+        },
+        {
+            id: "fruit_robot",
+            title: "Fruit Picking Robot",
+            subtitle: "Smart Robot Car",
+            description: "Hardware Development and Programming of Smart Fruit Picking Robot Car. Implemented using MCS-51 microcontroller for car movement and manipulator control. Won 3rd prize in Smart-Car Contest.",
+            media: "/img/projects/fruit_robot.jpeg",
+            tags: ["Control", "Robotics", "System Design"],
+            details: `
+                ### Hardware Development and Programming of Smart Fruit Picking Robot Car
+                Due to the complexity of fruit picking, automation is traditionally difficult. This project realizes automatic fruit picking, including manipulator design and control system implementation.
+                
+                **Key Features:**
+                - **Controller**: Single chip MCS-51 used to control car movement and manipulators.
+                - **Functions**: Dodge barriers, Follow traces, Pick an apple.
+                - **Mechanical Design**: Car Body Design, Work Space Analysis, Robot Arm Design.
+                - **Electrical Design**: Motor Driven Schematic, Circuit Design.
+                
+                This project involved full hardware assembly and low-level programming to coordinate the mobile base with the manipulation arm.
+            `
         },
         {
             id: "sphere_joint",

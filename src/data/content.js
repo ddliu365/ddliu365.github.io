@@ -76,7 +76,7 @@ export const content = {
             title: "The Aloha Project",
             subtitle: "Low-Cost Teleoperation & Imitation Learning Infrastructure",
             description: "Full-stack imitation learning pipeline based on ACT/Diffusion Policy. (Content coming soon)",
-            media: "https://mobile-aloha.github.io/static/images/hardware.jpg",
+            media: "/img/portfolio/aloha.jpg",
             tags: ["Imitation Learning", "Isaac Lab", "Sim-to-Real"],
             featured: true
         },

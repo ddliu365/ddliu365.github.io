@@ -63,11 +63,15 @@ export const content = {
     news: [
         {
             date: "Current",
-            text: "Working on Generalist Embodied Agent research at Apple, focusing on large-scale data collection and sim-to-real transfer."
+            text: "Currently spearheading the technical strategy for a scalable Robotic HIL Simulation System at Apple for sensor algorithm validation."
+        },
+        {
+            date: "May 2022",
+            text: "Successfully defended dissertation and obtained Ph.D. in Robotics from New York University."
         },
         {
             date: "Aug 2021",
-            text: "Paper 'A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid' accepted to IEEE ICMA."
+            text: "Paper 'A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid' was a Best Paper Award Finalists at IEEE ICMA."
         }
     ],
     projects: [
@@ -75,7 +79,7 @@ export const content = {
             id: "aloha",
             title: "The Aloha Project",
             subtitle: "Low-Cost Teleoperation & Imitation Learning Infrastructure",
-            description: "Full-stack imitation learning pipeline based on ACT/Diffusion Policy. (Content coming soon)",
+            description: "Full-stack imitation learning pipeline based on ACT/Diffusion Policy. Deployed and validated on physical hardware.",
             media: "/img/portfolio/aloha.jpg",
             tags: ["Imitation Learning", "Isaac Lab", "Sim-to-Real"],
             featured: true
@@ -84,7 +88,7 @@ export const content = {
             id: "vr-teleop",
             title: "VR Teleoperation with Quest & Exoskeleton",
             subtitle: "Immersive High-Frequency Teleoperation System",
-            description: "Low-latency teleoperation system using WebRTC/UDP. (Content coming soon)",
+            description: "Low-latency teleoperation system using WebRTC/UDP for humanoid robots.",
             media: "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&q=80&w=800", // Generic Placeholder
             tags: ["Teleoperation", "WebRTC", "Whole-Body Control"],
             featured: true

@@ -22,36 +22,27 @@ const Footer = () => {
                     </div>
 
                     {/* Analytics Section */}
-                    <div className="flex flex-col items-center md:items-end gap-2 border-t border-gray-800 pt-6">
-                        <span className="text-[10px] uppercase tracking-widest text-gray-500 mb-2">Site Analytics</span>
-                        <div className="flex items-center gap-4 bg-gray-800/50 p-3 rounded-lg border border-gray-700">
-                            {/* Visitor Counter */}
-                            <div className="flex flex-col items-center">
-                                <img
-                                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fddliu365.github.io&count_bg=%233B82F6&title_bg=%231F2937&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"
-                                    alt="Hits"
-                                    className="h-5"
-                                />
-                            </div>
+                    <div className="flex flex-col items-center md:items-end gap-3 border-t border-gray-800 pt-6">
+                        <span className="text-[10px] uppercase tracking-widest text-gray-500 mb-1">Visitors & Traffic</span>
+                        <div className="flex flex-col items-center md:items-end gap-4">
+                            {/* Visitor Counter Badge */}
+                            <img
+                                src="https://komarev.com/ghpvc/?username=ddliu365&color=3b82f6&style=flat-square&label=SITE+VISITORS"
+                                alt="Visitor Count"
+                                className="h-5"
+                            />
 
-                            {/* Global Map Placeholder - Using a stylized representative icon/link or embed */}
-                            <div className="h-8 w-1px bg-gray-700"></div>
-                            <div className="text-[10px] text-gray-400 hover:text-blue-400 transition-colors cursor-pointer text-center">
-                                <p className="mb-0.5 font-semibold">Global Traffic</p>
-                                <div className="flex items-center justify-center gap-1 opacity-60">
-                                    <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div>
-                                    <span>Live Map</span>
-                                </div>
+                            {/* Flag Counter as the 'Global Map' of countries */}
+                            <div className="bg-gray-800/30 p-2 rounded border border-gray-800 hover:border-blue-500/30 transition-colors">
+                                <a href="https://info.flagcounter.com/8v7F">
+                                    <img
+                                        src="https://s11.flagcounter.com/count2/8v7F/bg_111827/txt_FFFFFF/border_111827/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/"
+                                        alt="Flag Counter"
+                                        border="0"
+                                        className="max-w-[120px] opacity-90"
+                                    />
+                                </a>
                             </div>
-                        </div>
-
-                        {/* ClustrMaps Embed Placeholder */}
-                        <div id="clustrmaps-container" className="mt-2 opacity-80 hover:opacity-100 transition-opacity">
-                            {/* Note to User: Insert your ClustrMaps widget script here if you have a specific ID */}
-                            {/* For now, we use a generic placeholder or a small iframe if available */}
-                            <a href="https://clustrmaps.com/site/1c6s0" title="Visit tracker" className="hidden">
-                                <img src="//www.clustrmaps.com/map_v2.png?d=your-id&cl=ffffff" alt="Map" />
-                            </a>
                         </div>
                     </div>
                 </div>

@@ -75,8 +75,8 @@ export const content = {
             id: "aloha",
             title: "The Aloha Project",
             subtitle: "Low-Cost Teleoperation & Imitation Learning Infrastructure",
-            description: "Deployed a full-stack imitation learning pipeline based on ACT/Diffusion Policy. Built the simulation environment in Isaac Gym/Lab, handled data collection synchronization, and validated sim-to-real transfer on physical hardware.",
-            media: "/img/portfolio/double_throw.gif", // Placeholder
+            description: "Full-stack imitation learning pipeline based on ACT/Diffusion Policy. (Content coming soon)",
+            media: "https://images.unsplash.com/photo-1531746790731-6c41d256ef16?auto=format&fit=crop&q=80&w=800", // Generic Placeholder
             tags: ["Imitation Learning", "Isaac Lab", "Sim-to-Real"],
             featured: true
         },
@@ -84,8 +84,8 @@ export const content = {
             id: "vr-teleop",
             title: "VR Teleoperation with Quest & Exoskeleton",
             subtitle: "Immersive High-Frequency Teleoperation System",
-            description: "Designed a low-latency teleoperation system using WebRTC/UDP. Implemented whole-body control mapping from human motion to robot joint space, addressing singularity and latency challenges.",
-            media: "/img/portfolio/landing.gif", // Placeholder
+            description: "Low-latency teleoperation system using WebRTC/UDP. (Content coming soon)",
+            media: "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&q=80&w=800", // Generic Placeholder
             tags: ["Teleoperation", "WebRTC", "Whole-Body Control"],
             featured: true
         },
@@ -176,7 +176,7 @@ export const content = {
             title: "Humanoid Double-Support Throw",
             subtitle: "Whole-Body Optimization",
             description: "Whole-Body Optimization of Long-Distance Throw for a Humanoid in Double Support.",
-            media: "/img/projects/double_throw.png",
+            media: "/img/portfolio/double_throw.gif",
             tags: ["Control", "Robotics", "WBC"],
             link: "https://nyu-legged-group.github.io/throw"
         },
@@ -193,7 +193,7 @@ export const content = {
             title: "Humanoid Landing",
             subtitle: "DDP-based Optimization",
             description: "DDP-based Parachute Landing Optimization for a Humanoid.",
-            media: "/img/projects/landing.png",
+            media: "/img/portfolio/landing.gif",
             tags: ["Robotics", "Control", "DDP"]
         },
         {
@@ -215,6 +215,13 @@ export const content = {
         }
     ],
     publications: [
+        {
+            title: "Motion Planning and Control of Active Robot in Orthopedic Surgery by CDMP-Based Imitation Learning and Constrained Optimization",
+            authors: "Xingqiang Jian, Yibin Song, Dongdong Liu, et al.",
+            conference: "IEEE Transactions on Automation Science and Engineering (T-ASE)",
+            year: "2025",
+            status: "Accepted"
+        },
         {
             title: "Whole-Body Optimization of Long-Distance Throw for a Humanoid in Double Support",
             authors: "Dongdong Liu, Yuhang Lin, Alexander Koldy, and Vikram Kapila",
@@ -276,11 +283,6 @@ export const content = {
             role: "Instructor",
             course: "NYU Tandon Robotics Summer Program",
             period: "2018, 2019"
-        },
-        {
-            role: "Teaching Assistant",
-            course: "Introduction to Robotics",
-            period: "Spring 2021"
         }
     ]
 };

@@ -73,7 +73,8 @@ const Projects = () => {
                                         {project.description}
                                     </p>
 
-                                    <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between">
+                                    {/* Temporarily disabled links per user request */}
+                                    {/* <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between">
                                         {isInternal ? (
                                             <Link
                                                 to={`/project/${project.id}`}
@@ -91,7 +92,7 @@ const Projects = () => {
                                                 View Project <ExternalLink size={16} className="ml-2" />
                                             </a>
                                         ) : null}
-                                    </div>
+                                    </div> */}
                                 </div>
                             </motion.div>
                         );

@@ -59,7 +59,7 @@ const Projects = () => {
                                         {project.title}
                                     </h3>
                                     <h4 className="text-[10px] font-bold text-[#FF530D] mb-4 tracking-widest font-mono">
-                                        {project.subtitle.charAt(0).toUpperCase() + project.subtitle.slice(1).toLowerCase()}
+                                        {project.subtitle}
                                     </h4>
                                     <p className="text-slate-600 mb-6 text-[13px] leading-normal flex-grow font-light">
                                         {project.description}

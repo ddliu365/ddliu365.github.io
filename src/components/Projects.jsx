@@ -65,12 +65,6 @@ const Projects = () => {
                                         {project.description}
                                     </p>
 
-                                    <div className="mt-auto pt-4 border-t border-slate-50 flex items-center justify-between">
-                                        <span className="text-[9px] font-bold uppercase tracking-widest text-slate-300 group-hover:text-[#A31F34] transition-colors font-mono">
-                                            ANALYSIS
-                                        </span>
-                                        <ArrowRight size={12} className="text-slate-200 group-hover:text-[#A31F34] transform group-hover:translate-x-1 transition-all" />
-                                    </div>
                                 </div>
 
                                 <div className="absolute bottom-0 left-0 w-full h-1 bg-[#A31F34] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>

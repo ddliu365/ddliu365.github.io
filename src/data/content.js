@@ -164,24 +164,24 @@ export const content = {
         {
             id: "hydraulic_control",
             title: "Hydraulic Pressure Control",
-            subtitle: "Fuzzy-PID Control",
-            description: "Structural Design and Experiment with Fuzzy-PID Control for the Hydraulic Pressure Control System. Achieved 0.4 bar error stability.",
+            subtitle: "Fuzzy PID Control",
+            description: "Structural Design and Experiment with Fuzzy PID Control for the Hydraulic Pressure Control System. Achieved 0.4 bar error stability.",
             media: "/img/projects/hydraulic_control.png",
-            tags: ["Control", "Fuzzy-PID", "Hydraulics"],
+            tags: ["Control", "Fuzzy PID", "Hydraulics"],
             details: `
-                ### Structural Design and Experiment with Fuzzy-PID Control
+                ### Structural Design and Experiment with Fuzzy PID Control
                 This research is based on an industrial project aiming to design an on-land experimental device to monitor pressure environments in the deep ocean. The target is to accurately control pressure in a closed chamber full of water using a hydraulic-power system.
                 
                 **Challenge:**
                 The mathematical model of the chamber is difficult to construct, and the system is highly nonlinear. Traditional PID control suffers from high following errors in dynamic states and high overshoot.
                 
                 **Solution:**
-                Proposed a controlling strategy with adjustable parameters in PID based on Fuzzy Logic (Fuzzy-PID).
+                Proposed a controlling strategy with adjustable parameters in PID based on Fuzzy Logic (Fuzzy PID).
                 
                 **Results:**
                 - **Stable Condition**: Error limited to 0.4 bar.
                 - **Dynamic Condition**: System follows control target curves without distortion; error limited to 2.5% FS (10-100 bar).
-                - **Comparison**: Fuzzy-PID decreases overshoot and settles faster compared to traditional PID.
+                - **Comparison**: Fuzzy PID decreases overshoot and settles faster compared to traditional PID.
                 
                 **Implementation:**
                 - Designed mechanical devices, including a pressure-transfer device (using a rubber capsule to separate oil and water).

@@ -33,16 +33,16 @@ const Hero = () => {
                     variants={{
                         visible: { transition: { staggerChildren: 0.1, delayChildren: 0.4 } }
                     }}
-                    className="w-full max-w-sm md:max-w-2xl bg-[#111111]/95 backdrop-blur-xl border border-white/5 p-8 md:p-10 shadow-[0_0_80px_rgba(0,0,0,0.8)] relative mr-[-2%] md:mr-[-5%]"
+                    className="w-full max-w-sm md:max-w-3xl bg-black/50 backdrop-blur-2xl border border-white/10 p-8 md:p-12 shadow-[0_0_100px_rgba(0,0,0,0.9)] relative mr-[-2%] md:mr-[-5%]"
                 >
                     {/* Crimson accent line top - Consistent Header Style */}
                     <div className="absolute top-0 left-0 w-24 h-1 bg-[#A31F34]"></div>
 
-                    <div className="space-y-6">
+                    <div className="space-y-8">
                         {/* Avatar & Name Group - Softened Casing and Synced Weight */}
-                        <div className="flex items-center gap-5">
+                        <div className="flex items-center gap-6">
                             <motion.div variants={itemVariants} className="shrink-0">
-                                <div className="w-16 h-16 md:w-20 md:h-20 border border-white/10 overflow-hidden bg-black rounded-none">
+                                <div className="w-16 h-16 md:w-24 md:h-24 border border-white/10 overflow-hidden bg-black rounded-none">
                                     <img
                                         src={content.avatar}
                                         alt={content.name}
@@ -52,15 +52,15 @@ const Hero = () => {
                             </motion.div>
 
                             <div>
-                                <motion.h1 variants={itemVariants} className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-0 leading-tight">
-                                    Dongdong Liu
+                                <motion.h1 variants={itemVariants} className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-0 leading-tight">
+                                    {content.name}
                                 </motion.h1>
-                                <motion.div variants={itemVariants} className="h-0.5 w-12 bg-[#FF530D] mt-2"></motion.div>
+                                <motion.div variants={itemVariants} className="h-0.5 w-16 bg-[#FF530D] mt-3"></motion.div>
                             </div>
                         </div>
 
-                        <div className="space-y-4">
-                            <motion.p variants={itemVariants} className="text-[#FF530D] text-[10px] md:text-[12.5px] font-bold tracking-tight font-mono whitespace-nowrap block w-full">
+                        <div className="space-y-5">
+                            <motion.p variants={itemVariants} className="text-[#FF530D] text-[10px] md:text-[14px] font-black tracking-[0.08em] font-mono whitespace-nowrap overflow-hidden border-l-2 border-[#FF530D] pl-4 uppercase">
                                 {content.title}
                             </motion.p>
 

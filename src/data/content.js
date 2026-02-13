@@ -12,9 +12,9 @@ export const content = {
     },
     lastUpdated: "February 2026",
     bio: [
-        "I am a Ph.D. in Humanoid Robotics with 3.5 years of industrial R&D experience at Apple. My expertise lies in **Whole-Body Control (WBC), MPC, and Sim-to-Real transfer** for high-DoF manipulators and humanoids.",
+        "I am a Ph.D. in Humanoid Robotics from **[New York University](https://www.nyu.edu)** with 3.5 years of industrial R&D experience at **[Apple](https://www.apple.com)**. My expertise lies in **Whole-Body Control (WBC), MPC, and Sim-to-Real transfer** for high-DoF manipulators and humanoids.",
         "Currently, I spearhead the technical strategy for a scalable Robotic HIL Simulation System at Apple, enabling cross-functional scientific teams to engineer and validate novel health algorithms.",
-        "Previously, I launched a new humanoid research line at NYU's Mechatronics, Controls, and Robotics Laboratory (MCRL) and founded the **NYU Legged Group**."
+        "Previously, I launched a new humanoid research line at NYU's **[Mechatronics, Controls, and Robotics Laboratory (MCRL)](https://mechatronics.engineering.nyu.edu)** and founded the **[NYU Legged Group](https://nyu-legged-group.github.io/people/)**."
     ],
     skills: {
         robotics: ["ROS 1 & 2", "Bullet/MuJoCo", "Isaac Lab", "Motion Planning", "Reinforcement/Imitation Learning", "Whole-Body Control", "MPC"],

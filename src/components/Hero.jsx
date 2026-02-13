@@ -76,7 +76,9 @@ const Hero = () => {
                         <motion.div variants={itemVariants} className="space-y-3 text-slate-300 text-sm md:text-base leading-relaxed font-light relative z-20">
                             {content.bio.map((paragraph, index) => (
                                 <p key={index} dangerouslySetInnerHTML={{
-                                    __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<span class="text-white font-semibold">$1</span>')
+                                    __html: paragraph
+                                        .replace(/\*\*(.*?)\*\*/g, '<span class="text-white font-semibold">$1</span>')
+                                        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline underline-offset-4 transition-colors font-medium">$1</a>')
                                 }} />
                             ))}
                         </motion.div>

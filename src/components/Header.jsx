@@ -33,7 +33,7 @@ const Header = () => {
                 }`}
         >
             <div className="container mx-auto px-6 max-w-6xl flex justify-between items-center">
-                <a href="/" className="text-xl font-bold tracking-tight text-slate-900 transition-colors uppercase">
+                <a href="/" className={`text-xl font-bold tracking-tight transition-colors uppercase ${isScrolled || mobileMenuOpen ? 'text-slate-900' : 'text-white'}`}>
                     Dongdong<span className="text-[#A31F34]"> Liu</span>
                 </a>
 
@@ -43,17 +43,17 @@ const Header = () => {
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-[12px] font-semibold text-slate-600 hover:text-[#A31F34] transition-colors relative group tracking-tight"
+                            className={`text-[12px] font-semibold transition-colors relative group tracking-tight ${isScrolled || mobileMenuOpen ? 'text-slate-600 hover:text-[#A31F34]' : 'text-white/90 hover:text-white'}`}
                         >
                             {link.name}
-                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#A31F34] transition-all duration-300 group-hover:w-full"></span>
+                            <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || mobileMenuOpen ? 'bg-[#A31F34]' : 'bg-white'}`}></span>
                         </a>
                     ))}
                 </nav>
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-slate-900"
+                    className={`md:hidden transition-colors ${isScrolled || mobileMenuOpen ? 'text-slate-900' : 'text-white'}`}
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                     {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}

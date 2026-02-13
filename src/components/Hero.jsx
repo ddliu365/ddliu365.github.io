@@ -53,7 +53,7 @@ const Hero = () => {
 
                             <div>
                                 <motion.h1 variants={itemVariants} className="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-0 leading-tight">
-                                    Dongdong<span className="text-[#A31F34] font-light"> Liu</span>
+                                    Dongdong<span className="text-white font-light"> Liu</span>
                                 </motion.h1>
                                 <motion.div variants={itemVariants} className="h-0.5 w-12 bg-[#FF530D] mt-2"></motion.div>
                             </div>

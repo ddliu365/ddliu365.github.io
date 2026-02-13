@@ -192,32 +192,57 @@ export const content = {
     ],
     publications: [
         {
-            title: "Spatially covariant image registration with text prompts",
-            authors: "Hang Zhang, Xiang Chen, Rongguang Wang, Renjiu Hu, Dongdong Liu, and Guangming Li",
-            conference: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
-            year: "2024",
-            status: "Published",
-            links: {
-                pdf: "https://arxiv.org/abs/2311.15607",
-                code: "https://github.com/tinymilky/textSCF"
-            }
-        },
-        {
             title: "Whole-Body Optimization of Long-Distance Throw for a Humanoid in Double Support",
             authors: "Dongdong Liu, Yuhang Lin, Alexander Koldy, and Vikram Kapila",
             conference: "IEEE Robotics and Automation Letters (RA-L), Under Review",
             year: "2026",
-            links: {
-                website: "https://nyu-legged-group.github.io/throw"
-            }
+            links: {}
         },
         {
             title: "Simulation-based Motion Planning for Single-Support Long-Distance Throw in a Humanoid",
             authors: "Dongdong Liu, Yuhang Lin, Jui-Yu Tseng, and Vikram Kapila",
             conference: "Manuscript in preparation",
             year: "2026",
+            links: {}
+        },
+        {
+            title: "Spatially covariant image registration with text prompts",
+            authors: "Hang Zhang, Xiang Chen, Rongguang Wang, Renjiu Hu, Dongdong Liu, and Guangming Li",
+            conference: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
+            year: "2024",
             links: {
-                website: "https://nyu-legged-group.github.io/"
+                pdf: "https://arxiv.org/abs/2311.15607",
+                code: "https://github.com/tinymilky/textSCF"
+            }
+        },
+        {
+            title: "MemWarp: Discontinuity Preserving Cardiac Registration...",
+            authors: "Hang Zhang, Xiang Chen, Renjiu Hu, Dongdong Liu, et al.",
+            conference: "MICCAI",
+            year: "2024",
+            links: {
+                pdf: "https://papers.miccai.org/miccai-2024/paper/1764_paper.pdf",
+                doi: "https://doi.org/10.1007/978-3-031-72384-1_63",
+                code: "https://github.com/tinymilky/Mem-Warp"
+            }
+        },
+        {
+            title: "Spatially Covariant Lesion Segmentation",
+            authors: "Hang Zhang, Rongguang Wang, Jinwei Zhang, Dongdong Liu, Chao Li, and Jiahao Li",
+            conference: "International Joint Conferences on Artificial Intelligence (IJCAI)",
+            year: "2023",
+            links: {
+                pdf: "https://arxiv.org/abs/2301.07895",
+                doi: "https://doi.org/10.24963/ijcai.2023/190"
+            }
+        },
+        {
+            title: "Analyzing the Outcomes of A Robotics Workshop...",
+            authors: "Abhidipta Mallik, Dongdong Liu, and Vikram Kapila",
+            conference: "Education and Information Technologies",
+            year: "2022",
+            links: {
+                pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9709379/"
             }
         },
         {
@@ -242,36 +267,6 @@ export const content = {
             conference: "IEEE-RAS International Symposium on Safety, Security, and Rescue Robotics (SSRR)",
             year: "2020",
             links: { pdf: "https://ieeexplore.ieee.org/document/9292623" }
-        },
-        {
-            title: "Analyzing the Outcomes of A Robotics Workshop...",
-            authors: "Abhidipta Mallik, Dongdong Liu, and Vikram Kapila",
-            conference: "Education and Information Technologies",
-            year: "2022",
-            links: {
-                pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9709379/"
-            }
-        },
-        {
-            title: "Spatially Covariant Lesion Segmentation",
-            authors: "Hang Zhang, Rongguang Wang, Jinwei Zhang, Dongdong Liu, Chao Li, and Jiahao Li",
-            conference: "International Joint Conferences on Artificial Intelligence (IJCAI)",
-            year: "2023",
-            links: {
-                pdf: "https://arxiv.org/abs/2301.07895",
-                doi: "https://doi.org/10.24963/ijcai.2023/190"
-            }
-        },
-        {
-            title: "MemWarp: Discontinuity Preserving Cardiac Registration...",
-            authors: "Hang Zhang, Xiang Chen, Renjiu Hu, Dongdong Liu, et al.",
-            conference: "MICCAI",
-            year: "2024",
-            links: {
-                pdf: "https://papers.miccai.org/miccai-2024/paper/1764_paper.pdf",
-                doi: "https://doi.org/10.1007/978-3-031-72384-1_63",
-                code: "https://github.com/tinymilky/Mem-Warp"
-            }
         }
     ],
     honors: [

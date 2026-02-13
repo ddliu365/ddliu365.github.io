@@ -1,27 +1,4 @@
-import { useEffect } from 'react';
-import { content } from '../data/content';
-
 const Footer = () => {
-    useEffect(() => {
-        // Load MapMyVisitors Globe Script
-        const script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.id = 'mmvst_globe';
-        script.src = "//mapmyvisitors.com/globe.js?d=qnXaKL7Xoup1Mw0O-sps2S-UKyvOZ4b8UDtct9Bc724";
-        script.async = true;
-
-        const container = document.getElementById('globe-container');
-        if (container) {
-            container.appendChild(script);
-        }
-
-        return () => {
-            if (container && script.parentNode === container) {
-                container.removeChild(script);
-            }
-        };
-    }, []);
-
     return (
         <footer className="py-12 bg-white border-t border-slate-100">
             <div className="container mx-auto px-6 max-w-6xl">
@@ -39,29 +16,20 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Analytics Section - Restored Counter and Globe */}
+                    {/* Analytics Section - Updated Counter, Removed Globe */}
                     <div className="flex items-center gap-8">
-                        {/* Visitor Counter */}
                         <div className="flex flex-col items-center gap-1.5">
                             <span className="text-[9px] uppercase tracking-widest text-slate-400 font-bold font-mono">Visits</span>
                             <div className="bg-slate-50 px-2 py-1 border border-slate-100 shadow-inner">
-                                <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener noreferrer">
                                     <img
-                                        src="https://hitwebcounter.com/counter/counter.php?page=ddliu365_portfolio&style=0007&nbdigits=6&type=page&initCount=0"
-                                        title="Free Counter"
-                                        alt="Free Counter"
+                                        src="https://hitwebcounter.com/counter/counter.php?page=21476554&style=0007&nbdigits=6&type=page&initCount=8088"
+                                        title="Free Tools"
+                                        alt="Free Tools"
                                         className="h-4 opacity-70 hover:opacity-100 transition-opacity"
                                     />
                                 </a>
                             </div>
-                        </div>
-
-                        <div className="w-px h-8 bg-slate-100 hidden sm:block"></div>
-
-                        {/* Globe Container */}
-                        <div className="flex flex-col items-center gap-1.5">
-                            <span className="text-[9px] uppercase tracking-widest text-slate-400 font-bold font-mono">Globe</span>
-                            <div id="globe-container" className="w-[120px] h-[40px] flex items-center justify-center overflow-hidden opacity-60 hover:opacity-100 transition-opacity scale-75" />
                         </div>
                     </div>
 

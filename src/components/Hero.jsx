@@ -60,7 +60,7 @@ const Hero = () => {
                         </div>
 
                         <div className="space-y-4">
-                            <motion.p variants={itemVariants} className="text-[#FF530D] text-[10px] md:text-[13px] font-bold tracking-[0.1em] font-mono whitespace-nowrap">
+                            <motion.p variants={itemVariants} className="text-[#FF530D] text-[10px] md:text-[12.5px] font-bold tracking-tight font-mono whitespace-nowrap block w-full">
                                 {content.title}
                             </motion.p>
 

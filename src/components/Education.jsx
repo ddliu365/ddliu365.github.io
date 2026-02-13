@@ -42,14 +42,8 @@ const Education = () => {
 
                                         <div className="space-y-2 border-t border-slate-200 pt-4">
                                             <div className="text-[10px] font-bold text-[#A31F34] uppercase tracking-widest font-mono">
-                                                GPA: {edu.gpa}
+                                                {edu.period}
                                             </div>
-                                            {edu.committee && (
-                                                <div className="text-[10px] text-slate-500 leading-relaxed font-light mt-3">
-                                                    <span className="font-bold text-slate-900 uppercase tracking-tighter block mb-1">PhD Committee:</span>
-                                                    {edu.committee}
-                                                </div>
-                                            )}
                                         </div>
                                     </div>
                                 </motion.div>

@@ -28,7 +28,7 @@ const Hero = () => {
         <section id="home" className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-slate-900 border-b border-slate-800">
             {/* Background Media */}
             <div className="absolute inset-0 z-0">
-                <div className="absolute inset-0 bg-slate-900/60 z-10 backdrop-blur-[2px]"></div>
+                <div className="absolute inset-0 bg-slate-900/40 z-10 backdrop-blur-none"></div>
                 <img
                     src="/background.gif"
                     alt="Background Animation"
@@ -50,7 +50,7 @@ const Hero = () => {
                         className="relative group shrink-0"
                     >
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-400 to-cyan-300 rounded-full blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-500 scale-110"></div>
-                        <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white/80 shadow-2xl relative z-10 bg-white ring-1 ring-white/20">
+                        <div className="w-32 h-32 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-white/80 shadow-2xl relative z-10 bg-white ring-1 ring-white/20">
                             <img
                                 src={content.avatar}
                                 alt={content.name}
@@ -66,14 +66,14 @@ const Hero = () => {
                         animate="visible"
                         className="max-w-2xl pt-4 text-center md:text-left"
                     >
-                        <motion.h1 variants={itemVariants} className="text-4xl md:text-7xl font-bold tracking-tight text-white mb-2 relative z-20">
+                        <motion.h1 variants={itemVariants} className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-2 relative z-20">
                             {content.name}
                         </motion.h1>
-                        <motion.h2 variants={itemVariants} className="text-lg md:text-2xl text-blue-400 font-semibold mb-6 relative z-20">
+                        <motion.h2 variants={itemVariants} className="text-base md:text-xl text-blue-400 font-semibold mb-4 relative z-20">
                             {content.title}
                         </motion.h2>
 
-                        <motion.div variants={itemVariants} className="space-y-4 text-slate-300 text-base md:text-lg leading-relaxed font-light relative z-20">
+                        <motion.div variants={itemVariants} className="space-y-3 text-slate-300 text-sm md:text-base leading-relaxed font-light relative z-20">
                             {content.bio.map((paragraph, index) => (
                                 <p key={index} dangerouslySetInnerHTML={{
                                     __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<span class="text-white font-semibold">$1</span>')

@@ -274,6 +274,15 @@ export const content = {
             }
         }
     ],
+    reviewer: [
+        "IEEE Transactions on Cognitive and Developmental Systems",
+        "International Journal of Humanoid Robotics",
+        "Conference on Neural Information Processing Systems (NeurIPS)",
+        "IEEE/ASME Transactions on Mechatronics",
+        "Journal of Mechanisms and Robotics",
+        "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "IEEE Robotics and Automation Letters (RA-L)"
+    ],
     teaching: [
         {
             role: "Instructor",

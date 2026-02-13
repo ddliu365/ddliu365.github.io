@@ -34,7 +34,7 @@ const Header = () => {
                 }`}
         >
             <div className="container mx-auto px-6 max-w-6xl flex justify-between items-center">
-                <a href="/" className={`text-xl font-bold tracking-tight transition-colors uppercase ${isScrolled || mobileMenuOpen ? 'text-slate-900' : 'text-white'}`}>
+                <a href="/" className={`text-xl font-bold tracking-tight transition-colors ${isScrolled || mobileMenuOpen ? 'text-slate-900' : 'text-white'}`}>
                     Dongdong Liu
                 </a>
 

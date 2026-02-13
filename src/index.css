@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@200;300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 @theme {
     --color-primary: #A31F34;
@@ -13,7 +13,7 @@
     --color-text-muted: #64748b;
 
     --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-    --font-heading: 'IBM Plex Sans', sans-serif;
+    --font-heading: 'Outfit', sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
 }
 
@@ -22,6 +22,7 @@ body {
     color: var(--color-text-main);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    @apply leading-normal;
 }
 
 h1,
@@ -30,27 +31,28 @@ h3,
 h4,
 .font-heading {
     font-family: var(--font-heading);
+    @apply tracking-tight;
 }
 
-/* Base Styles for MIT Square Theme */
+/* Base Styles for MIT Square Theme - Compact Version */
 .section-header {
-    @apply mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-12;
+    @apply mb-12 md:mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8;
 }
 
 .section-title {
-    @apply text-4xl md:text-5xl font-light tracking-tight uppercase text-slate-900 mb-6;
+    @apply text-3xl md:text-4xl font-semibold text-slate-900 mb-4;
 }
 
 .section-bar {
-    @apply h-1.5 w-24 bg-[#A31F34];
+    @apply h-1 w-16 bg-[#A31F34];
 }
 
 .sidebar-title {
-    @apply text-3xl md:text-4xl font-light tracking-tight uppercase text-slate-900 mb-6;
+    @apply text-2xl md:text-3xl font-semibold text-slate-900 mb-4;
 }
 
 .sidebar-bar {
-    @apply h-1.5 w-20 bg-[#A31F34] mb-8;
+    @apply h-1 w-16 bg-[#A31F34] mb-6;
 }
 
 /* Sharp Corners Global Override */

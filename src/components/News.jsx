@@ -13,7 +13,7 @@ const News = () => {
                     className="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6"
                 >
                     <div>
-                        <h2 className="text-4xl md:text-5xl font-light mb-4 text-slate-900 tracking-tight uppercase">News</h2>
+                        <h2 className="text-4xl md:text-5xl font-light mb-6 text-slate-900 tracking-tight uppercase">News</h2>
                         <div className="h-1.5 w-24 bg-[#A31F34]"></div>
                     </div>
                 </motion.div>
@@ -26,18 +26,18 @@ const News = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: index * 0.05 }}
-                            className="flex flex-col md:flex-row md:items-start p-8 bg-slate-50 border border-slate-100 group relative overflow-hidden"
+                            className="flex flex-col md:flex-row md:items-start p-10 bg-slate-50 border border-slate-100 group relative overflow-hidden"
                         >
                             {/* Accent Line */}
-                            <div className="absolute left-0 top-0 bottom-0 w-1 bg-slate-200 group-hover:bg-[#FF530D] transition-colors"></div>
+                            <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-slate-200 group-hover:bg-[#FF530D] transition-colors"></div>
 
-                            <div className="md:w-32 shrink-0 mb-3 md:mb-0">
-                                <span className="text-[11px] font-bold text-[#A31F34] uppercase tracking-widest block">
+                            <div className="md:w-32 shrink-0 mb-4 md:mb-0">
+                                <span className="text-[11px] font-bold text-[#A31F34] uppercase tracking-[0.2em] block font-mono">
                                     {item.date}
                                 </span>
                             </div>
                             <div className="flex-grow">
-                                <p className="text-slate-700 leading-relaxed text-[15px] font-light">
+                                <p className="text-slate-700 leading-relaxed text-[16px] font-light">
                                     {item.text}
                                 </p>
                             </div>

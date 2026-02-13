@@ -46,6 +46,9 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-black/20 backdrop-blur-[0.5px] z-10"></div>
                 <div className="absolute inset-0 bg-gradient-to-l from-black/60 via-transparent to-transparent z-11"></div>
 
+                {/* Cinematic Vignette Overlay */}
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,rgba(0,0,0,0.6)_70%,rgba(0,0,0,0.9)_100%)] z-12"></div>
+
                 {/* Technical Grid Overlay */}
                 <div className="tech-grid tech-grid-pulse opacity-10"></div>
 

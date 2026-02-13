@@ -134,6 +134,7 @@ export const content = {
             description: "Simultaneous Navigation and Construction Benchmarking Environments.",
             media: "/img/projects/snac.jpg",
             tags: ["Learning", "Navigation"],
+            video: "/video/snac.mp4",
             link: "https://ai4ce.github.io/SNAC/"
         },
         {
@@ -143,6 +144,7 @@ export const content = {
             description: "Designed a 6-URS parallel robot that can reconfigure into a walking platform. Replacing serial structures with parallel ones to achieve better stability and load capacity. Completed calculation of motor torque/speed and ADAMS simulations.",
             media: "/img/projects/6urs.png",
             tags: ["Robotics", "Mechanism Design", "ADAMS"],
+            video: "/video/parallel_robot.mp4",
             details: `
                 ### Design and Development of Automatically Reconfigurable Parallel Walking Robot
                 This project abandons the notion that the structure of walking robots is mostly based on serial structures. It presents the idea that a robot with a parallel structure can achieve even better performance while realizing walking functions.

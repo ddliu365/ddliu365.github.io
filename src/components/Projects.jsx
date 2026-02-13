@@ -1,6 +1,78 @@
-import { motion } from 'framer-motion';
-import { content } from '../data/content';
-import { ArrowRight } from 'lucide-react';
+const ProjectMedia = ({ project }) => {
+    const [showVideo, setShowVideo] = React.useState(false);
+    const videoRef = React.useRef(null);
+    const cardRef = React.useRef(null);
+    const [isInView, setIsInView] = React.useState(false);
+
+    React.useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => setIsInView(entry.isIntersecting),
+            { threshold: 0.5 }
+        );
+        if (cardRef.current) observer.observe(cardRef.current);
+        return () => observer.disconnect();
+    }, []);
+
+    React.useEffect(() => {
+        if (!project.video || !isInView) {
+            setShowVideo(false);
+            return;
+        }
+
+        let timeout;
+        if (!showVideo) {
+            // Show image for 2s before switching to video
+            timeout = setTimeout(() => setShowVideo(true), 2000);
+        }
+        return () => clearTimeout(timeout);
+    }, [showVideo, isInView, project.video]);
+
+    const handleVideoEnd = () => {
+        setShowVideo(false);
+    };
+
+    return (
+        <div ref={cardRef} className="relative h-56 overflow-hidden bg-slate-50 border-b border-slate-100">
+            {/* Static Image */}
+            <motion.img
+                initial={false}
+                animate={{ opacity: showVideo ? 0 : 1 }}
+                transition={{ duration: 0.5 }}
+                src={project.media}
+                alt={project.title}
+                className="absolute inset-0 w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
+            />
+
+            {/* Video Layer */}
+            {project.video && (
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: showVideo ? 1 : 0 }}
+                    transition={{ duration: 0.5 }}
+                    className="absolute inset-0 w-full h-full"
+                >
+                    {showVideo && (
+                        <video
+                            ref={videoRef}
+                            src={project.video}
+                            autoPlay
+                            muted
+                            playsInline
+                            onEnded={handleVideoEnd}
+                            className="w-full h-full object-cover"
+                        />
+                    )}
+                </motion.div>
+            )}
+
+            {project.featured && (
+                <div className="absolute top-0 left-0 bg-[#A31F34] px-3 py-1 text-[9px] font-bold text-white uppercase tracking-widest font-mono z-20">
+                    Featured
+                </div>
+            )}
+        </div>
+    );
+};
 
 const Projects = () => {
     return (
@@ -33,19 +105,7 @@ const Projects = () => {
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 className="bg-white border border-slate-100 flex flex-col h-full group transition-all duration-300 relative overflow-hidden shadow-sm hover:shadow-md"
                             >
-                                {/* Media Container */}
-                                <div className="relative h-56 overflow-hidden bg-slate-50 border-b border-slate-100">
-                                    <img
-                                        src={project.media}
-                                        alt={project.title}
-                                        className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
-                                    />
-                                    {project.featured && (
-                                        <div className="absolute top-0 left-0 bg-[#A31F34] px-3 py-1 text-[9px] font-bold text-white uppercase tracking-widest font-mono">
-                                            Featured
-                                        </div>
-                                    )}
-                                </div>
+                                <ProjectMedia project={project} />
 
                                 <div className="p-6 md:p-8 flex flex-col flex-grow relative z-10">
                                     <div className="flex flex-wrap gap-2 mb-4">

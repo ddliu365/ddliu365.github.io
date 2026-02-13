@@ -60,6 +60,30 @@ export const content = {
             ]
         }
     ],
+    education: [
+        {
+            university: "New York University (NYU)",
+            degree: "Ph.D. in Mechanical Engineering (Robotics Track)",
+            period: "2018 – 2022",
+            gpa: "3.79",
+            committee: "Vikram Kapila, Chen Feng, Joo H. Kim, Ludovic Righetti, Zhongping Jiang",
+            year: "2022"
+        },
+        {
+            university: "Zhejiang University (ZJU), China",
+            degree: "M.S. in Mechatronics Engineering",
+            period: "2013 – 2016",
+            gpa: "3.50",
+            year: "2016"
+        },
+        {
+            university: "Yanshan University (YSU), China",
+            degree: "B.E. in Mechatronics Engineering",
+            period: "2009 – 2013",
+            gpa: "3.85",
+            year: "2013"
+        }
+    ],
     news: [
         {
             date: "Current",

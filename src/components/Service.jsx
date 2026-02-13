@@ -15,7 +15,7 @@ const Service = () => {
                     <div className="h-1 w-16 bg-[#A31F34]"></div>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
+                <div className="flex flex-col gap-16 md:gap-24 max-w-3xl">
                     {/* Reviewer / Program Committee */}
                     <div>
                         <h3 className="text-xl font-semibold text-slate-900 mb-8 flex items-center gap-3">

@@ -275,13 +275,13 @@ export const content = {
         }
     ],
     reviewer: [
-        "IEEE Transactions on Cognitive and Developmental Systems",
-        "International Journal of Humanoid Robotics",
-        "Conference on Neural Information Processing Systems (NeurIPS)",
-        "IEEE/ASME Transactions on Mechatronics",
-        "Journal of Mechanisms and Robotics",
-        "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "IEEE Robotics and Automation Letters (RA-L)"
+        { name: "IEEE Transactions on Cognitive and Developmental Systems", url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274989" },
+        { name: "International Journal of Humanoid Robotics", url: "https://www.worldscientific.com/worldscinet/ijhr" },
+        { name: "Conference on Neural Information Processing Systems (NeurIPS)", url: "https://neurips.cc/" },
+        { name: "IEEE/ASME Transactions on Mechatronics", url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3516" },
+        { name: "Journal of Mechanisms and Robotics", url: "https://asmedigitalcollection.asme.org/mechanismsrobotics" },
+        { name: "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)", url: "https://www.ieee-iros.org/" },
+        { name: "IEEE Robotics and Automation Letters (RA-L)", url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083534" }
     ],
     teaching: [
         {

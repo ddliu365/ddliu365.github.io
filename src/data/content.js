@@ -274,6 +274,19 @@ export const content = {
             }
         }
     ],
+    honors: [
+        "National Science Foundation (NSF) PhD Scholarship, NSF of USA, 2018-2022",
+        "National Scholarship, Ministry of Education (MOE) of China, 2011",
+        "International “Internet+” Innovation and Entrepreneurship Competition, Gold, MOE, 2021",
+        "IEEE Int. Conf. on Mechatronics and Automation(ICMA) Best Paper Award Finalist, IEEE, 2021",
+        "University Principal Level Scholarship, Thrice, YSU, 2010, 2011, 2012",
+        "Province First prize of Mechanical Design Contest, Mech. Dept. of Hebei Province, 2012",
+        "University First Excellent Scholarship, YSU, 2012",
+        "BDI First Excellent Scholarship, BDI Inc., 2012",
+        "University Second Excellent Scholarship, YSU, 2009",
+        "1st prize of Mechanical Design Contest in School of Mechanical Engineering, YSU, 2012",
+        "3rd prize of Mechanical Innovation Contest in School of Mechanical Engineering (Robotics), YSU, 2012"
+    ],
     reviewer: [
         { name: "IEEE Transactions on Cognitive and Developmental Systems", url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274989" },
         { name: "International Journal of Humanoid Robotics", url: "https://www.worldscientific.com/worldscinet/ijhr" },

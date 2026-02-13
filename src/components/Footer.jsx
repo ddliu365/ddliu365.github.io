@@ -34,7 +34,7 @@ const Footer = () => {
                                 Dongdong Liu
                             </span>
                             <p className="text-[10px] text-slate-400 font-medium tracking-[0.2em] uppercase mt-0.5">
-                                Robotics Engineer
+                                Robotics Expert
                             </p>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 export const content = {
     name: "Dongdong Liu",
-    title: "Ph.D. in Humanoid Robotics | Robotics Engineer at Apple",
+    title: "Ph.D. in Humanoid Robotics | Robotics Expert at Apple",
     avatar: "/img/avatar.jpg",
     email: "ddliu@nyu.edu",
     phone: "(408) 205-2021",

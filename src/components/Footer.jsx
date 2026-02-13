@@ -1,3 +1,5 @@
+import { content } from '../data/content';
+
 const Footer = () => {
     return (
         <footer className="py-12 bg-white border-t border-slate-100">

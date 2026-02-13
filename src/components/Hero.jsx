@@ -26,18 +26,14 @@ const Hero = () => {
 
     return (
         <section id="home" className="min-h-screen flex items-center pt-20 relative overflow-hidden bg-slate-900 border-b border-slate-800">
-            {/* Background Video */}
+            {/* Background Media */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-slate-900/60 z-10 backdrop-blur-[2px]"></div>
-                <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
+                <img
+                    src="/background.gif"
+                    alt="Background Animation"
                     className="w-full h-full object-cover opacity-50"
-                >
-                    <source src="/video.mp4" type="video/mp4" />
-                </video>
+                />
             </div>
 
             {/* Subtle Gradient Overlays */}

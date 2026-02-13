@@ -17,6 +17,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <div className="noise-overlay"></div>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -306,7 +306,7 @@ export const content = {
     teaching: [
         {
             role: "Instructor",
-            course: "NYU Tandon Robotics Summer Program",
+            course: "NYU Robotics Summer Program",
             period: "2018, 2019"
         }
     ]

@@ -61,7 +61,7 @@ const Hero = () => {
 
                         <div className="space-y-4">
                             <motion.p variants={itemVariants} className="text-[#FF530D] text-[11px] md:text-[12px] font-bold tracking-widest font-mono">
-                                Ph.D. in humanoid robotics | Robotics engineer at Apple
+                                Ph.D. in Humanoid Robotics | Robotics Engineer at Apple
                             </motion.p>
 
                             <motion.div variants={itemVariants} className="space-y-4 text-gray-300 text-[14px] md:text-[15px] leading-relaxed font-light">

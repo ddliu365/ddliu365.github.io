@@ -29,11 +29,11 @@ export const content = {
             location: "Cupertino, CA",
             description: [
                 "Spearheaded the technical strategy for a scalable Robotic HIL Simulation System.",
-                "Developed a customized QP optimization solver to map human motion to industrial robot.",
-                "Implemented/Deployed a pipeline on robot physical system with real-time kernel for precise motion tracking across orgs.",
-                "Built a robotics lab from the ground up, integrating 4 industrial robots and architecting the software infra for scalable R&D.",
-                "Formulated rigorous motion signal validation/curation standards and led high-fidelity large-scale data collection efforts.",
-                "Developed end-to-end automation pipelines for released 2023, 2024 & 2025 fitness & health features on watchOS, iOS."
+                "Developed a customized QP optimization solver to map human motion to industrial robots.",
+                "Implemented and deployed a pipeline on physical robot systems with a real-time kernel for precise motion tracking.",
+                "Built a robotics lab from the ground up, integrating four industrial robots and architecting the software infrastructure for scalable R&D.",
+                "Formulated rigorous motion signal validation and curation standards, leading high-fidelity large-scale data collection efforts.",
+                "Developed end-to-end automation pipelines for features released in 2023, 2024, and 2025 across watchOS and iOS."
             ]
         },
         {
@@ -54,9 +54,9 @@ export const content = {
             period: "07/2016 - 12/2017",
             location: "Singapore",
             description: [
-                "Programmed 50,000+ lines of codes with C# for GUI interface and tested the program on site at UMC Semiconductor.",
-                "Proposed a divide-and-conquer strategy creating an O(n log n) algorithm, reducing calculation time from 8 hours to 40 minutes.",
-                "Increased hit rate from 55% to 100% for the inventory system, saving 15 senior engineers for maintenance."
+                "Programmed 50,000+ lines of code with C# for GUI interfaces and tested the program on-site at UMC Semiconductor.",
+                "Proposed a divide-and-conquer strategy, creating an O(n log n) algorithm that reduced calculation time from 8 hours to 40 minutes.",
+                "Increased the hit rate from 55% to 100% for the inventory system, saving 15 senior engineers' time for maintenance."
             ]
         }
     ],
@@ -71,7 +71,7 @@ export const content = {
         },
         {
             date: "Aug 2021",
-            text: "Paper 'A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid' was a Best Paper Award Finalists at IEEE ICMA."
+            text: "Paper 'A Rollover Strategy for Wrist Damage Reduction in a Forward Falling Humanoid' was a Best Paper Award Finalist at IEEE ICMA."
         }
     ],
     projects: [
@@ -145,20 +145,20 @@ export const content = {
             tags: ["Robotics", "Mechanism Design", "ADAMS"],
             details: `
                 ### Design and Development of Automatically Reconfigurable Parallel Walking Robot
-                This project abandons the notion that the structure of the walking robot is mostly based on the serial structure. It presents the idea that a robot with parallel structure can get even better performance while realizing the walking function.
+                This project abandons the notion that the structure of walking robots is mostly based on serial structures. It presents the idea that a robot with a parallel structure can achieve even better performance while realizing walking functions.
                 
-                Using 6-URS parallel structure as the basic structure of the walking robot, and serial structure as the basis for a reconfigurable robot, this project completes the calculation of the motor torque, speed, and selects appropriate motor types.
+                Using a 6-URS parallel structure as the basic architecture of the walking robot, and a serial structure as the basis for a reconfigurable robot, this project completes the calculations for motor torque and speed and selects appropriate motor types.
                 
                 **Key Achievements:**
-                - Designed the Parallel and Reconfigurable Robot Device including mechanical and gait locomotion design.
-                - Developed 6 degrees of freedom Parallel Robot and 5 degrees of freedom Serial Robot.
-                - Simulated performances including kinematics and dynamics with ADAMS.
+                - Designed the parallel and reconfigurable robot device, including mechanical design and gait locomotion.
+                - Developed a 6-degree-of-freedom parallel robot and a 5-degree-of-freedom serial robot.
+                - Simulated performance, including kinematics and dynamics, using ADAMS.
                 
                 **Mechanism Logic:**
-                1. Lock one freedom of rotation joint in non-reconfigurable branch.
-                2. Detach the sphere joint and free the reconfigurable branch.
-                3. Adjust manipulator position to grab objects (e.g., minerals).
-                4. Deposit object and re-engage sphere joint for walking mode.
+                1. Lock one rotational degree of freedom in the non-reconfigurable branch.
+                2. Detach the spherical joint and free the reconfigurable branch.
+                3. Adjust the manipulator's position to grab objects (e.g., minerals).
+                4. Deposit the object and re-engage the spherical joint for walking mode.
             `
         },
         {
@@ -170,7 +170,7 @@ export const content = {
             tags: ["Control", "Fuzzy-PID", "Hydraulics"],
             details: `
                 ### Structural Design and Experiment with Fuzzy-PID Control
-                This research is based on an industrial project aiming to design an on-land experimental device to monitor pressure environments in deep ocean. The target is to accurately control pressure in a closed chamber full of water using a hydraulic-power system.
+                This research is based on an industrial project aiming to design an on-land experimental device to monitor pressure environments in the deep ocean. The target is to accurately control pressure in a closed chamber full of water using a hydraulic-power system.
                 
                 **Challenge:**
                 The mathematical model of the chamber is difficult to construct, and the system is highly nonlinear. Traditional PID control suffers from high following errors in dynamic states and high overshoot.
@@ -180,13 +180,13 @@ export const content = {
                 
                 **Results:**
                 - **Stable Condition**: Error limited to 0.4 bar.
-                - **Dynamic Condition**: System follows control target curve without distortion; error limited to 2.5% FS (10-100bar).
+                - **Dynamic Condition**: System follows control target curves without distortion; error limited to 2.5% FS (10-100 bar).
                 - **Comparison**: Fuzzy-PID decreases overshoot and settles faster compared to traditional PID.
                 
                 **Implementation:**
-                - Designed mechanical device including pressure-transfer device (using rubber capsule to separate oil and water).
-                - Built Electric System and Communication Schematic based on xPC target-host.
-                - Developed GUI with C# and controller model with Matlab-Simulink.
+                - Designed mechanical devices, including a pressure-transfer device (using a rubber capsule to separate oil and water).
+                - Built the electrical system and communication schematic based on an xPC target-host.
+                - Developed a GUI with C# and a controller model with Matlab-Simulink.
             `
         },
     ],
@@ -278,7 +278,7 @@ export const content = {
         "National Science Foundation (NSF) PhD Scholarship, New York University",
         "National Scholarship, Ministry of Education of China",
         "International “Internet+” Innovation and Entrepreneurship Competition, Gold, Ministry of Education of China",
-        "IEEE Int. Conf. on Mechatronics and Automation(ICMA) Best Paper Award Finalist, IEEE"
+        "IEEE Int. Conf. on Mechatronics and Automation (ICMA) Best Paper Award Finalist, IEEE"
     ],
     reviewer: [
         { name: "IEEE Transactions on Cognitive and Developmental Systems", url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274989" },

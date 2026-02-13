@@ -33,8 +33,8 @@ const Header = () => {
                 }`}
         >
             <div className="container mx-auto px-6 max-w-6xl flex justify-between items-center">
-                <a href="/" className="text-xl font-bold tracking-tight text-slate-900 hover:text-[#A31F34] transition-colors uppercase">
-                    Dongdong<span className="text-[#A31F34]"> Liu</span>
+                <a href="/" className="text-xl font-bold tracking-tight text-slate-900 hover:text-[#A31F34] transition-colors">
+                    Dongdong<span className="text-[#A31F34] font-light"> Liu</span>
                 </a>
 
                 {/* Desktop Nav */}
@@ -43,7 +43,7 @@ const Header = () => {
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-xs font-bold uppercase tracking-widest text-slate-600 hover:text-[#A31F34] transition-colors relative group"
+                            className="text-sm font-medium text-slate-600 hover:text-[#A31F34] transition-colors relative group"
                         >
                             {link.name}
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#A31F34] transition-all duration-300 group-hover:w-full"></span>
@@ -74,7 +74,7 @@ const Header = () => {
                                 <a
                                     key={link.name}
                                     href={link.href}
-                                    className="text-sm font-bold uppercase tracking-widest text-slate-700 hover:text-[#A31F34] transition-colors"
+                                    className="text-base font-medium text-slate-700 hover:text-[#A31F34] transition-colors"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     {link.name}

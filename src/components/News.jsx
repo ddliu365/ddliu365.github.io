@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { content } from '../data/content';
-import { Bell } from 'lucide-react';
 
 const News = () => {
     return (
@@ -11,35 +10,37 @@ const News = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="mb-16"
+                    className="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6"
                 >
-                    <div className="flex items-center gap-3 mb-4">
-                        <div className="p-2 bg-red-100 rounded-full">
-                            <Bell className="text-red-500 animate-pulse" size={24} />
-                        </div>
-                        <h2 className="text-4xl font-bold text-slate-900">News</h2>
+                    <div>
+                        <h2 className="text-4xl md:text-5xl font-light mb-4 text-slate-900 tracking-tight uppercase">News</h2>
+                        <div className="h-1.5 w-24 bg-[#A31F34]"></div>
                     </div>
-                    <div className="h-1.5 w-24 bg-blue-600 rounded-full"></div>
                 </motion.div>
 
-                <div className="space-y-6 max-w-4xl">
+                <div className="space-y-4 max-w-4xl">
                     {content.news.map((item, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, x: -20 }}
+                            initial={{ opacity: 0, x: -10 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.6, delay: index * 0.1 }}
-                            className="flex flex-col md:flex-row md:items-start p-6 rounded-3xl hover:bg-slate-50 transition-colors group"
+                            transition={{ duration: 0.6, delay: index * 0.05 }}
+                            className="flex flex-col md:flex-row md:items-start p-8 bg-slate-50 border border-slate-100 group relative overflow-hidden"
                         >
+                            {/* Accent Line */}
+                            <div className="absolute left-0 top-0 bottom-0 w-1 bg-slate-200 group-hover:bg-[#FF530D] transition-colors"></div>
+
                             <div className="md:w-32 shrink-0 mb-3 md:mb-0">
-                                <span className="inline-block px-3 py-1 bg-slate-100 rounded-full text-xs font-bold text-slate-600 uppercase tracking-wide group-hover:bg-white group-hover:shadow-sm transition-all">
+                                <span className="text-[11px] font-bold text-[#A31F34] uppercase tracking-widest block">
                                     {item.date}
                                 </span>
                             </div>
-                            <p className="text-slate-700 leading-relaxed pl-4 border-l-2 border-slate-200 md:border-none md:pl-0 text-lg">
-                                {item.text}
-                            </p>
+                            <div className="flex-grow">
+                                <p className="text-slate-700 leading-relaxed text-[15px] font-light">
+                                    {item.text}
+                                </p>
+                            </div>
                         </motion.div>
                     ))}
                 </div>

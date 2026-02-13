@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { content } from '../data/content';
-import { Mail, Github, Linkedin, GraduationCap, ChevronDown } from 'lucide-react';
+import { Mail, Github, Linkedin, GraduationCap } from 'lucide-react';
 
 const Hero = () => {
     const itemVariants = {
@@ -14,13 +14,14 @@ const Hero = () => {
 
     return (
         <section id="home" className="relative h-screen min-h-[650px] w-full overflow-hidden bg-[#0a0a0a] font-sans">
-            {/* Background Media - Higher Visibility for Robot */}
+            {/* Background Media - Softened with filter/blur */}
             <div className="absolute inset-0 z-0">
-                <div className="absolute inset-0 bg-gradient-to-l from-black/20 via-transparent to-transparent z-10"></div>
+                <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px] z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-l from-black/40 via-transparent to-transparent z-11"></div>
                 <img
                     src="/background.gif"
                     alt="Background Animation"
-                    className="w-full h-full object-cover opacity-90 scale-100 transition-transform duration-1000"
+                    className="w-full h-full object-cover opacity-80 scale-100 transition-transform duration-1000"
                 />
             </div>
 
@@ -32,7 +33,7 @@ const Hero = () => {
                     variants={{
                         visible: { transition: { staggerChildren: 0.12, delayChildren: 0.4 } }
                     }}
-                    className="w-full max-w-sm md:max-w-md bg-[#111111]/90 backdrop-blur-xl border border-white/5 p-8 md:p-10 shadow-[0_0_50px_rgba(0,0,0,0.5)] relative mr-[-5%] md:mr-[-10%]"
+                    className="w-full max-w-sm md:max-w-md bg-[#111111]/95 backdrop-blur-xl border border-white/5 p-8 md:p-10 shadow-[0_0_50px_rgba(0,0,0,0.6)] relative mr-[-5%] md:mr-[-10%]"
                 >
                     {/* Orange accent line top - MIT branding style (MechE Orange) */}
                     <div className="absolute top-0 left-0 w-24 h-1.5 bg-[#FF530D]"></div>
@@ -41,7 +42,7 @@ const Hero = () => {
                         {/* Integrated Avatar & Name Group */}
                         <div className="flex items-center gap-6">
                             <motion.div variants={itemVariants} className="shrink-0">
-                                <div className="w-16 h-16 border border-white/10 overflow-hidden shadow-inner bg-black rounded-sm">
+                                <div className="w-16 h-16 border border-white/10 overflow-hidden shadow-inner bg-black rounded-none">
                                     <img
                                         src={content.avatar}
                                         alt={content.name}
@@ -51,7 +52,7 @@ const Hero = () => {
                             </motion.div>
 
                             <div>
-                                <motion.h1 variants={itemVariants} className="text-3xl md:text-4xl font-light tracking-tight text-white mb-0 uppercase">
+                                <motion.h1 variants={itemVariants} className="text-3xl md:text-4xl font-light tracking-tight text-white mb-0">
                                     {content.name}
                                 </motion.h1>
                                 <motion.div variants={itemVariants} className="h-0.5 w-12 bg-[#FF530D] mt-2"></motion.div>
@@ -59,11 +60,11 @@ const Hero = () => {
                         </div>
 
                         <div className="space-y-5">
-                            <motion.p variants={itemVariants} className="text-gray-400 text-xs md:text-[13px] leading-relaxed font-medium uppercase tracking-[0.2em]">
+                            <motion.p variants={itemVariants} className="text-gray-400 text-sm md:text-base leading-relaxed font-light">
                                 {content.title}
                             </motion.p>
 
-                            <motion.div variants={itemVariants} className="space-y-4 text-gray-300 text-[12px] md:text-[14px] leading-relaxed font-light">
+                            <motion.div variants={itemVariants} className="space-y-4 text-gray-300 text-[13px] md:text-[15px] leading-relaxed font-light">
                                 {content.bio.map((paragraph, index) => (
                                     <p key={index} dangerouslySetInnerHTML={{
                                         __html: paragraph

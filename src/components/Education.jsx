@@ -32,12 +32,12 @@ const Education = () => {
                                     </div>
 
                                     {/* University */}
-                                    <h3 className="text-[11px] font-bold text-slate-600 uppercase tracking-widest mb-2 px-2 leading-tight">
+                                    <h3 className="text-[12px] font-bold text-slate-800 uppercase tracking-widest mb-1 leading-tight max-w-[200px]">
                                         {edu.university}
                                     </h3>
 
                                     {/* Degree */}
-                                    <div className="text-[12px] font-black text-slate-800 uppercase tracking-widest">
+                                    <div className="text-[12px] font-normal text-slate-500 uppercase tracking-[0.15em]">
                                         {edu.degree}
                                     </div>
                                 </motion.div>

@@ -62,17 +62,17 @@ export const content = {
     ],
     education: [
         {
-            university: "New York University (NYU)",
+            university: "New York University",
             degree: "Ph.D.",
             year: "2022"
         },
         {
-            university: "Zhejiang University (ZJU), China",
+            university: "Zhejiang University",
             degree: "M.S.",
             year: "2016"
         },
         {
-            university: "Yanshan University (YSU), China",
+            university: "Yanshan University",
             degree: "B.E.",
             year: "2013"
         }

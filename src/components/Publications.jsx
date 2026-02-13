@@ -37,11 +37,18 @@ const Publications = () => {
                                         {pub.title}
                                     </h3>
                                     <p className="text-slate-500 mb-4 text-[14px] font-light leading-normal">
-                                        {pub.authors.map((author, i) => (
-                                            <span key={i} className={author.includes('Dongdong Liu') ? 'text-slate-900 font-medium border-b border-[#FF530D]/40' : ''}>
-                                                {author}{i < pub.authors.length - 1 ? ', ' : ''}
-                                            </span>
-                                        ))}
+                                        {pub.authors.split(',').map((author, i, arr) => {
+                                            const trimmedAuthor = author.trim();
+                                            const isMe = trimmedAuthor.includes('Dongdong Liu');
+                                            return (
+                                                <span key={i}>
+                                                    <span className={isMe ? 'text-slate-900 font-medium border-b border-[#FF530D]/40' : ''}>
+                                                        {trimmedAuthor}
+                                                    </span>
+                                                    {i < arr.length - 1 ? ', ' : ''}
+                                                </span>
+                                            );
+                                        })}
                                     </p>
                                     <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-[#FF530D] font-mono">
                                         <span className="bg-slate-50 px-2.5 py-1 border border-slate-100">

@@ -1,3 +1,8 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { content } from '../data/content';
+import { ArrowRight } from 'lucide-react';
+
 const ProjectMedia = ({ project }) => {
     const [showVideo, setShowVideo] = React.useState(false);
     const videoRef = React.useRef(null);

@@ -1,27 +1,6 @@
-import { useEffect } from 'react';
 import { content } from '../data/content';
 
 const Footer = () => {
-    useEffect(() => {
-        // Load MapMyVisitors Map Script
-        const script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.id = 'mapmyvisitors';
-        script.src = "//mapmyvisitors.com/map.js?d=8yhvocHMhiwVnBrQ7Vokk7OYe_zl-h2fK3oLoRcb7ZY&cl=ffffff&w=a";
-        script.async = true;
-
-        const container = document.getElementById('globe-container');
-        if (container) {
-            container.appendChild(script);
-        }
-
-        return () => {
-            if (container && script.parentNode === container) {
-                container.removeChild(script);
-            }
-        };
-    }, []);
-
     return (
         <footer className="py-12 bg-slate-900 text-white border-t border-slate-800">
             <div className="container mx-auto px-6 max-w-6xl">
@@ -61,16 +40,6 @@ const Footer = () => {
                                     <a href="https://www.hitwebcounter.com/" target="_blank">
                                         <img src="https://hitwebcounter.com/counter/counter.php?page=21476500&style=0007&nbdigits=5&type=page&initCount=8088" title="Free Tools" Alt="Free Tools" border="0" className="h-5 opacity-90 hover:opacity-100 transition-opacity" />
                                     </a>
-                                </div>
-                            </div>
-
-                            <div className="hidden sm:block w-px h-10 bg-slate-800"></div>
-
-                            {/* Visitor Globe/Map */}
-                            <div className="flex flex-col items-center gap-2">
-                                <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Global Traffic</span>
-                                <div id="globe-container" className="flex items-center justify-center min-w-[150px] overflow-hidden opacity-90 hover:opacity-100 transition-opacity">
-                                    {/* The MapMyVisitors Widget will be injected here */}
                                 </div>
                             </div>
                         </div>

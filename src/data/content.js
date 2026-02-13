@@ -189,34 +189,6 @@ export const content = {
                 - Developed GUI with C# and controller model with Matlab-Simulink.
             `
         },
-        {
-            id: "fruit_robot",
-            title: "Fruit Picking Robot",
-            subtitle: "Smart Robot Car",
-            description: "Hardware Development and Programming of Smart Fruit Picking Robot Car. Implemented using MCS-51 microcontroller for car movement and manipulator control. Won 3rd prize in Smart-Car Contest.",
-            media: "/img/projects/fruit_robot.jpeg",
-            tags: ["Control", "Robotics", "System Design"],
-            details: `
-                ### Hardware Development and Programming of Smart Fruit Picking Robot Car
-                Due to the complexity of fruit picking, automation is traditionally difficult. This project realizes automatic fruit picking, including manipulator design and control system implementation.
-                
-                **Key Features:**
-                - **Controller**: Single chip MCS-51 used to control car movement and manipulators.
-                - **Functions**: Dodge barriers, Follow traces, Pick an apple.
-                - **Mechanical Design**: Car Body Design, Work Space Analysis, Robot Arm Design.
-                - **Electrical Design**: Motor Driven Schematic, Circuit Design.
-                
-                This project involved full hardware assembly and low-level programming to coordinate the mobile base with the manipulation arm.
-            `
-        },
-        {
-            id: "sphere_joint",
-            title: "Sphere Joint Mechanism",
-            subtitle: "Hardware Development",
-            description: "Hardware Development and Control of Novel Sphere Joint Mechanism.",
-            media: "/img/projects/sphere_joint.jpg",
-            tags: ["Robotics", "Hardware"]
-        }
     ],
     publications: [
         {

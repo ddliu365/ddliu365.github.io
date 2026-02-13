@@ -4,6 +4,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import News from './News';
 import Publications from './Publications';
+import Honors from './Honors';
 import Reviewer from './Reviewer';
 import Teaching from './Teaching';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Experience />
             <Skills />
             <Publications />
+            <Honors />
             <Reviewer />
             <News />
             <Teaching />

@@ -52,7 +52,7 @@ const Hero = () => {
                 <img
                     src="/background.gif"
                     alt="Background Animation"
-                    className="w-full h-full object-cover opacity-60"
+                    className="w-full h-full object-cover object-left md:object-[20%] opacity-60"
                 />
             </div>
 

@@ -41,10 +41,14 @@ const Hero = () => {
 
     return (
         <section id="home" className="relative h-screen min-h-[700px] w-full overflow-hidden bg-[#050505] font-sans">
-            {/* Background Media - Softened with filter/blur */}
+            {/* Immersive Background Layer */}
             <div className="absolute inset-0 z-0 scale-105">
                 <div className="absolute inset-0 bg-black/50 backdrop-blur-[1px] z-10"></div>
                 <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-transparent to-transparent z-11"></div>
+
+                {/* Technical Grid Overlay */}
+                <div className="tech-grid tech-grid-pulse opacity-20"></div>
+
                 <img
                     src="/background.gif"
                     alt="Background Animation"

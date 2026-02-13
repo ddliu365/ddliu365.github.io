@@ -62,9 +62,9 @@ export const content = {
     ],
     education: [
         {
-            university: "New York University",
-            degree: "Ph.D.",
-            year: "2022"
+            university: "Yanshan University",
+            degree: "B.E.",
+            year: "2013"
         },
         {
             university: "Zhejiang University",
@@ -72,9 +72,9 @@ export const content = {
             year: "2016"
         },
         {
-            university: "Yanshan University",
-            degree: "B.E.",
-            year: "2013"
+            university: "New York University",
+            degree: "Ph.D.",
+            year: "2022"
         }
     ],
     news: [

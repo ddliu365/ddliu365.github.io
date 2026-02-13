@@ -14,7 +14,7 @@ const Projects = () => {
                     className="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-12"
                 >
                     <div>
-                        <h2 className="text-4xl md:text-5xl font-light mb-4 text-slate-900 tracking-tight uppercase">Projects</h2>
+                        <h2 className="text-4xl md:text-5xl font-light mb-6 text-slate-900 tracking-tight uppercase">Projects</h2>
                         <div className="h-1.5 w-24 bg-[#A31F34]"></div>
                     </div>
                     <p className="text-slate-500 max-w-md text-sm leading-relaxed font-light">
@@ -66,8 +66,8 @@ const Projects = () => {
                                     </p>
 
                                     <div className="mt-auto pt-6 border-t border-slate-50 flex items-center justify-between">
-                                        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-300 group-hover:text-[#A31F34] transition-colors">
-                                            View Analysis
+                                        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-300 group-hover:text-[#A31F34] transition-colors font-mono">
+                                            ANALYSIS
                                         </span>
                                         <ArrowRight size={14} className="text-slate-200 group-hover:text-[#A31F34] transform group-hover:translate-x-1 transition-all" />
                                     </div>

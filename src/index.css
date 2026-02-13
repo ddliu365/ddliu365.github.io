@@ -1,20 +1,61 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@200;300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 @theme {
-    --color-primary: #2563eb;
-    --color-primary-dark: #1e40af;
-    --color-accent: #06b6d4;
+    --color-primary: #A31F34;
+    /* MIT Crimson */
+    --color-primary-dark: #82182a;
+    --color-accent: #FF530D;
+    /* MechE Orange */
     --color-bg-light: #f8fafc;
     --color-surface: #ffffff;
     --color-text-main: #0f172a;
     --color-text-muted: #64748b;
+
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-heading: 'IBM Plex Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
 }
 
 body {
     background-color: var(--color-bg-light);
     color: var(--color-text-main);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+/* Base Styles for MIT Square Theme */
+.section-header {
+    @apply mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-12;
+}
+
+.section-title {
+    @apply text-4xl md:text-5xl font-light tracking-tight uppercase text-slate-900 mb-6;
+}
+
+.section-bar {
+    @apply h-1.5 w-24 bg-[#A31F34];
+}
+
+.sidebar-title {
+    @apply text-3xl md:text-4xl font-light tracking-tight uppercase text-slate-900 mb-6;
+}
+
+.sidebar-bar {
+    @apply h-1.5 w-20 bg-[#A31F34] mb-8;
+}
+
+/* Sharp Corners Global Override */
+* {
+    border-radius: 0 !important;
 }
 
 /* Smooth Scrolling */
@@ -24,7 +65,7 @@ html {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -33,7 +74,6 @@ html {
 
 ::-webkit-scrollbar-thumb {
     background: #cbd5e1;
-    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

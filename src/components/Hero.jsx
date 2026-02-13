@@ -33,7 +33,7 @@ const Hero = () => {
                     variants={{
                         visible: { transition: { staggerChildren: 0.1, delayChildren: 0.4 } }
                     }}
-                    className="w-full max-w-sm md:max-w-lg bg-[#111111]/95 backdrop-blur-xl border border-white/5 p-8 md:p-10 shadow-[0_0_80px_rgba(0,0,0,0.8)] relative mr-[-2%] md:mr-[-5%]"
+                    className="w-full max-w-sm md:max-w-2xl bg-[#111111]/95 backdrop-blur-xl border border-white/5 p-8 md:p-10 shadow-[0_0_80px_rgba(0,0,0,0.8)] relative mr-[-2%] md:mr-[-5%]"
                 >
                     {/* Crimson accent line top - Consistent Header Style */}
                     <div className="absolute top-0 left-0 w-24 h-1 bg-[#A31F34]"></div>
@@ -60,7 +60,7 @@ const Hero = () => {
                         </div>
 
                         <div className="space-y-4">
-                            <motion.p variants={itemVariants} className="text-[#FF530D] text-[10px] md:text-[12px] font-bold tracking-[0.15em] font-mono whitespace-nowrap">
+                            <motion.p variants={itemVariants} className="text-[#FF530D] text-[10px] md:text-[13px] font-bold tracking-[0.1em] font-mono whitespace-nowrap">
                                 {content.title}
                             </motion.p>
 

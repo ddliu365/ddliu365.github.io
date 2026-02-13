@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 @theme {
     --color-primary: #A31F34;
@@ -12,8 +12,7 @@
     --color-text-main: #0f172a;
     --color-text-muted: #64748b;
 
-    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-    --font-heading: 'Outfit', sans-serif;
+    --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, blinkmacsystemfont, sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
 }
 
@@ -30,7 +29,8 @@ h2,
 h3,
 h4,
 .font-heading {
-    font-family: var(--font-heading);
+    font-family: var(--font-sans);
+    /* Unified to PingFang */
     @apply tracking-tight;
 }
 

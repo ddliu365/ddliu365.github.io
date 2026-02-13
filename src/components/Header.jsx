@@ -19,6 +19,7 @@ const Header = () => {
         { name: 'Projects', href: '/#projects' },
         { name: 'Experience', href: '/#experience' },
         { name: 'Publications', href: '/#publications' },
+        { name: 'Service', href: '/#service' },
         { name: 'Skills', href: '/#skills' },
     ];
 
@@ -34,7 +35,7 @@ const Header = () => {
         >
             <div className="container mx-auto px-6 max-w-6xl flex justify-between items-center">
                 <a href="/" className={`text-xl font-bold tracking-tight transition-colors uppercase ${isScrolled || mobileMenuOpen ? 'text-slate-900' : 'text-white'}`}>
-                    Dongdong<span className="text-[#A31F34]"> Liu</span>
+                    Dongdong Liu
                 </a>
 
                 {/* Desktop Nav - Switched to Title Case for better legibility */}

@@ -58,13 +58,12 @@ const Projects = () => {
                                     <h3 className="text-lg font-semibold mb-2 leading-tight text-slate-900 group-hover:text-[#A31F34] transition-colors tracking-tight">
                                         {project.title}
                                     </h3>
-                                    <h4 className="text-[10px] font-bold text-[#FF530D] mb-4 tracking-widest uppercase font-mono">
-                                        {project.subtitle}
+                                    <h4 className="text-[10px] font-bold text-[#FF530D] mb-4 tracking-widest font-mono">
+                                        {project.subtitle.charAt(0).toUpperCase() + project.subtitle.slice(1).toLowerCase()}
                                     </h4>
                                     <p className="text-slate-600 mb-6 text-[13px] leading-normal flex-grow font-light">
                                         {project.description}
                                     </p>
-
                                 </div>
 
                                 <div className="absolute bottom-0 left-0 w-full h-1 bg-[#A31F34] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>

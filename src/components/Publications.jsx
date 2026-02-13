@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { content } from '../data/content';
-import { FileText, Youtube } from 'lucide-react';
 
 const Publications = () => {
     return (
@@ -19,30 +18,29 @@ const Publications = () => {
                     </div>
                 </motion.div>
 
-                <div className="space-y-6 max-w-5xl">
+                <div className="space-y-2 max-w-5xl">
                     {content.publications.map((pub, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, y: 15 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.05 }}
-                            className="group p-6 bg-white border border-slate-200 hover:border-[#A31F34]/30 transition-all duration-300 relative overflow-hidden"
+                            transition={{ duration: 0.4, delay: index * 0.05 }}
+                            className="py-6 border-b border-slate-200 last:border-0 hover:pl-2 transition-all duration-300 group"
                         >
-                            <div className="absolute left-0 top-0 bottom-0 w-1 bg-slate-100 group-hover:bg-[#A31F34] transition-colors"></div>
-
-                            <div className="relative z-10 flex flex-col md:flex-row gap-6 items-start">
+                            <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-4">
+                                <span className="text-slate-400 text-[13px] font-mono w-12 shrink-0">[{pub.year}]</span>
                                 <div className="flex-grow">
-                                    <h3 className="text-lg font-semibold mb-3 text-slate-900 group-hover:text-[#A31F34] transition-colors leading-tight tracking-tight">
+                                    <h3 className="text-[16px] font-semibold text-slate-900 group-hover:text-[#A31F34] transition-colors leading-snug mb-1">
                                         {pub.title}
                                     </h3>
-                                    <p className="text-slate-500 mb-4 text-[14px] font-light leading-normal">
+                                    <p className="text-slate-500 text-[14px] leading-relaxed mb-1">
                                         {pub.authors.split(',').map((author, i, arr) => {
                                             const trimmedAuthor = author.trim();
                                             const isMe = trimmedAuthor.includes('Dongdong Liu');
                                             return (
                                                 <span key={i}>
-                                                    <span className={isMe ? 'text-slate-900 font-medium border-b border-[#FF530D]/40' : ''}>
+                                                    <span className={isMe ? 'text-slate-900 font-medium' : ''}>
                                                         {trimmedAuthor}
                                                     </span>
                                                     {i < arr.length - 1 ? ', ' : ''}
@@ -50,25 +48,18 @@ const Publications = () => {
                                             );
                                         })}
                                     </p>
-                                    <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-[#FF530D] font-mono">
-                                        <span className="bg-slate-50 px-2.5 py-1 border border-slate-100">
-                                            {pub.venue}
-                                        </span>
-                                        <span className="opacity-40">{pub.year}</span>
+                                    <div className="flex flex-wrap items-center gap-x-3 text-[13px] text-slate-500">
+                                        <span className="font-medium text-[#FF530D]">{pub.conference || pub.venue}</span>
+                                        {pub.links && (
+                                            <div className="flex gap-3">
+                                                {Object.entries(pub.links).map(([key, url]) => (
+                                                    <a key={key} href={url} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#A31F34] transition-colors font-mono uppercase text-[10px] tracking-widest border-b border-transparent hover:border-[#A31F34]">
+                                                        {key}
+                                                    </a>
+                                                ))}
+                                            </div>
+                                        )}
                                     </div>
-                                </div>
-
-                                <div className="flex md:flex-col gap-2 shrink-0">
-                                    {pub.links.pdf && (
-                                        <a href={pub.links.pdf} target="_blank" rel="noopener noreferrer" className="flex items-center px-3 py-1.5 bg-slate-50 border border-slate-200 text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-white hover:bg-[#A31F34] hover:border-[#A31F34] transition-all font-mono" title="PDF">
-                                            <FileText size={12} className="mr-2" /> PDF
-                                        </a>
-                                    )}
-                                    {pub.links.video && (
-                                        <a href={pub.links.video} target="_blank" rel="noopener noreferrer" className="flex items-center px-3 py-1.5 bg-slate-50 border border-slate-200 text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-white hover:bg-[#FF530D] hover:border-[#FF530D] transition-all font-mono" title="Video">
-                                            <Youtube size={12} className="mr-2" /> Video
-                                        </a>
-                                    )}
                                 </div>
                             </div>
                         </motion.div>

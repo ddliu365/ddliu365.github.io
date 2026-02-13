@@ -206,7 +206,7 @@ export const content = {
             title: "Whole-Body Optimization of Long-Distance Throw for a Humanoid in Double Support",
             authors: "Dongdong Liu, Yuhang Lin, Alexander Koldy, and Vikram Kapila",
             conference: "IEEE Robotics and Automation Letters (RA-L), Under Review",
-            year: "2025",
+            year: "2026",
             links: {
                 website: "https://nyu-legged-group.github.io/throw"
             }
@@ -215,7 +215,7 @@ export const content = {
             title: "Simulation-based Motion Planning for Single-Support Long-Distance Throw in a Humanoid",
             authors: "Dongdong Liu, Yuhang Lin, Jui-Yu Tseng, and Vikram Kapila",
             conference: "Manuscript in preparation",
-            year: "2025",
+            year: "2026",
             links: {
                 website: "https://nyu-legged-group.github.io/"
             }

@@ -275,12 +275,10 @@ export const content = {
         }
     ],
     honors: [
-        "National Science Foundation (NSF) PhD Scholarship, NSF of USA, 2018-2022",
-        "National Scholarship, Ministry of Education (MOE) of China, 2011",
-        "International “Internet+” Innovation and Entrepreneurship Competition, Gold, MOE, 2021",
-        "IEEE Int. Conf. on Mechatronics and Automation(ICMA) Best Paper Award Finalist, IEEE, 2021",
-        "University Principal Level Scholarship, Thrice, YSU, 2010, 2011, 2012",
-        "Province First prize of Mechanical Design Contest, Mech. Dept. of Hebei Province, 2012"
+        "National Science Foundation (NSF) PhD Scholarship, New York University",
+        "National Scholarship, Ministry of Education of China",
+        "International “Internet+” Innovation and Entrepreneurship Competition, Gold, Ministry of Education of China",
+        "IEEE Int. Conf. on Mechatronics and Automation(ICMA) Best Paper Award Finalist, IEEE"
     ],
     reviewer: [
         { name: "IEEE Transactions on Cognitive and Developmental Systems", url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274989" },

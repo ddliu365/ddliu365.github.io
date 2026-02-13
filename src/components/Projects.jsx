@@ -6,94 +6,75 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <section id="projects" className="py-24 bg-white relative">
-            {/* Decorative diagonal line */}
-            <div className="absolute top-0 right-0 -z-10 w-full h-full overflow-hidden opacity-30">
-                <div className="absolute -top-[20%] right-[10%] w-[1000px] h-[1000px] bg-slate-50 rotate-12 rounded-[100px]"></div>
-            </div>
-
             <div className="container mx-auto px-6 max-w-6xl">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="mb-16 md:mb-24 text-center md:text-left"
+                    className="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6"
                 >
-                    <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900 tracking-tight">Engineering Demos</h2>
-                    <p className="text-slate-500 max-w-2xl text-xl leading-relaxed mx-auto md:mx-0">
+                    <div>
+                        <h2 className="text-4xl md:text-5xl font-light mb-4 text-slate-900 tracking-tight uppercase">Engineering Demos</h2>
+                        <div className="h-1.5 w-24 bg-[#FF530D]"></div>
+                    </div>
+                    <p className="text-slate-500 max-w-md text-sm leading-relaxed font-light uppercase tracking-wider">
                         Selected projects demonstrating full-stack robotic system design, control, and implementation.
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border-l border-t border-slate-100">
                     {content.projects.map((project, index) => {
-                        const isInternal = !!project.details;
-
                         return (
                             <motion.div
                                 key={index}
-                                initial={{ opacity: 0, y: 50 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, margin: "-50px" }}
-                                transition={{ duration: 0.5, delay: index * 0.1, type: "spring", stiffness: 50 }}
-                                className="bg-white rounded-3xl overflow-hidden border border-slate-100 flex flex-col h-full group hover:shadow-[0_20px_50px_rgba(30,58,138,0.12)] transition-all duration-500 hover:-translate-y-2 relative"
+                                initial={{ opacity: 0 }}
+                                whileInView={{ opacity: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: index * 0.1 }}
+                                className="bg-white border-r border-b border-slate-100 flex flex-col h-full group transition-all duration-300 relative overflow-hidden"
                             >
-                                {/* Hover Gradient Overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-
-                                <div className="relative h-56 overflow-hidden bg-slate-50">
+                                {/* Media Container - Square */}
+                                <div className="relative h-64 overflow-hidden bg-slate-50">
                                     <img
                                         src={project.media}
                                         alt={project.title}
-                                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                                        className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
                                     />
-                                    {/* Featured Badge */}
                                     {project.featured && (
-                                        <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-blue-600 shadow-sm">
-                                            FEATURED
+                                        <div className="absolute top-0 left-0 bg-[#A31F34] px-3 py-1 text-[10px] font-bold text-white uppercase tracking-widest">
+                                            Featured
                                         </div>
                                     )}
                                 </div>
 
                                 <div className="p-8 flex flex-col flex-grow relative z-10">
-                                    <div className="flex flex-wrap gap-2 mb-5">
+                                    <div className="flex flex-wrap gap-2 mb-6">
                                         {project.tags.map(tag => (
-                                            <span key={tag} className="text-[11px] font-bold px-3 py-1 bg-slate-50 text-slate-600 border border-slate-100 rounded-full uppercase tracking-wider group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                                            <span key={tag} className="text-[10px] font-bold px-2 py-0.5 border border-slate-200 text-slate-500 uppercase tracking-widest group-hover:border-[#FF530D] group-hover:text-[#FF530D] transition-colors">
                                                 {tag}
                                             </span>
                                         ))}
                                     </div>
-                                    <h3 className="text-xl font-bold mb-2 leading-tight text-slate-900 group-hover:text-blue-600 transition-colors">
+                                    <h3 className="text-xl font-light mb-2 leading-tight text-slate-900 group-hover:text-[#A31F34] transition-colors uppercase tracking-tight">
                                         {project.title}
                                     </h3>
-                                    <h4 className="text-xs font-bold text-slate-400 mb-4 uppercase tracking-wider">
+                                    <h4 className="text-[10px] font-bold text-[#FF530D] mb-4 uppercase tracking-[0.2em]">
                                         {project.subtitle}
                                     </h4>
-                                    <p className="text-slate-600 mb-6 text-sm leading-relaxed flex-grow line-clamp-3">
+                                    <p className="text-slate-600 mb-6 text-[13px] leading-relaxed flex-grow font-light">
                                         {project.description}
                                     </p>
 
-                                    {/* Temporarily disabled links per user request */}
-                                    {/* <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between">
-                                        {isInternal ? (
-                                            <Link
-                                                to={`/project/${project.id}`}
-                                                className="inline-flex items-center text-sm font-semibold text-slate-900 hover:text-blue-600 transition-colors"
-                                            >
-                                                View Details <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
-                                            </Link>
-                                        ) : project.link ? (
-                                            <a
-                                                href={project.link}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="inline-flex items-center text-sm font-semibold text-slate-900 hover:text-blue-600 transition-colors"
-                                            >
-                                                View Project <ExternalLink size={16} className="ml-2" />
-                                            </a>
-                                        ) : null}
-                                    </div> */}
+                                    <div className="mt-auto pt-6 border-t border-slate-50 flex items-center">
+                                        <span className="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-[#A31F34] transition-colors flex items-center">
+                                            Documentation Pending <ArrowRight size={14} className="ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                                        </span>
+                                    </div>
                                 </div>
+
+                                {/* Overlay Accent */}
+                                <div className="absolute bottom-0 left-0 w-full h-1 bg-[#A31F34] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
                             </motion.div>
                         );
                     })}

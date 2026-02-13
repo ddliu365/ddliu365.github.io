@@ -11,49 +11,55 @@ const Publications = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="mb-16"
+                    className="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6"
                 >
-                    <h2 className="text-4xl font-bold mb-4 text-slate-900">Publications</h2>
-                    <div className="h-1.5 w-24 bg-blue-600 rounded-full"></div>
+                    <div>
+                        <h2 className="text-4xl md:text-5xl font-light mb-4 text-slate-900 tracking-tight uppercase">Selected Publications</h2>
+                        <div className="h-1.5 w-24 bg-[#A31F34]"></div>
+                    </div>
                 </motion.div>
 
                 <div className="space-y-6">
                     {content.publications.map((pub, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0, x: -10 }}
+                            whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="group p-8 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:border-blue-100 transition-all duration-300"
+                            transition={{ duration: 0.5, delay: index * 0.05 }}
+                            className="group p-8 bg-white border border-slate-200 hover:border-[#A31F34]/40 transition-all duration-300 relative overflow-hidden"
                         >
-                            <div className="flex flex-col md:flex-row justify-between items-start gap-6">
-                                <div>
-                                    <h3 className="text-lg font-bold mb-3 text-slate-900 group-hover:text-blue-600 transition-colors leading-snug">
+                            {/* Left Accent Line */}
+                            <div className="absolute left-0 top-0 bottom-0 w-1 bg-slate-100 group-hover:bg-[#A31F34] transition-colors"></div>
+
+                            <div className="flex flex-col md:flex-row justify-between items-start gap-8 relative z-10">
+                                <div className="flex-grow">
+                                    <h3 className="text-xl font-light mb-4 text-slate-900 group-hover:text-[#A31F34] transition-colors leading-snug uppercase tracking-tight">
                                         {pub.title}
                                     </h3>
-                                    <p className="text-slate-600 mb-3 text-sm leading-relaxed">
-                                        {pub.authors}
+                                    <p className="text-slate-600 mb-4 text-[13px] leading-relaxed font-light">
+                                        {pub.authors.replace(content.name, `**${content.name}**`)}
                                     </p>
-                                    <p className="text-slate-500 text-sm font-medium">
-                                        <span className="italic">{pub.conference}</span>, {pub.year}
-                                    </p>
+                                    <div className="flex items-center gap-4 text-[11px] font-bold uppercase tracking-[0.2em] text-[#FF530D]">
+                                        <span className="bg-slate-50 px-2 py-0.5 border border-slate-100">{pub.conference}</span>
+                                        <span className="text-slate-400">{pub.year}</span>
+                                    </div>
                                 </div>
 
-                                <div className="flex gap-3 shrink-0">
+                                <div className="flex flex-wrap gap-2 shrink-0">
                                     {pub.links?.pdf && (
-                                        <a href={pub.links.pdf} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-slate-50 rounded-xl text-sm font-semibold text-slate-600 hover:text-white hover:bg-slate-900 transition-all" title="PDF">
-                                            <FileText size={16} className="mr-2" /> PDF
+                                        <a href={pub.links.pdf} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-slate-50 border border-slate-200 text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-white hover:bg-[#A31F34] hover:border-[#A31F34] transition-all" title="PDF">
+                                            <FileText size={14} className="mr-2" /> PDF
                                         </a>
                                     )}
                                     {pub.links?.video && (
-                                        <a href={pub.links.video} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-slate-50 rounded-xl text-sm font-semibold text-slate-600 hover:text-white hover:bg-red-600 transition-all" title="Video">
-                                            <Youtube size={16} className="mr-2" /> Video
+                                        <a href={pub.links.video} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-slate-50 border border-slate-200 text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-white hover:bg-[#FF530D] hover:border-[#FF530D] transition-all" title="Video">
+                                            <Youtube size={14} className="mr-2" /> Video
                                         </a>
                                     )}
                                     {pub.links?.project && (
-                                        <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-slate-50 rounded-xl text-sm font-semibold text-slate-600 hover:text-white hover:bg-blue-600 transition-all" title="Project Page">
-                                            <ExternalLink size={16} className="mr-2" /> Project
+                                        <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-slate-50 border border-slate-200 text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-white hover:bg-black hover:border-black transition-all" title="Project Page">
+                                            <ExternalLink size={14} className="mr-2" /> Project
                                         </a>
                                     )}
                                 </div>

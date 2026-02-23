@@ -18,20 +18,28 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Analytics Section - Updated Counter, Removed Globe */}
-                    <div className="flex items-center gap-8">
-                        <div className="flex flex-col items-center gap-1.5">
-                            <span className="text-[9px] uppercase tracking-widest text-slate-400 font-bold font-mono">Visits</span>
-                            <div className="bg-slate-50 px-2 py-1 border border-slate-100 shadow-inner">
-                                <a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener noreferrer">
-                                    <img
-                                        src="https://hitwebcounter.com/counter/counter.php?page=21476554&style=0007&nbdigits=6&type=page&initCount=8088"
-                                        title="Free Tools"
-                                        alt="Free Tools"
-                                        className="h-4 opacity-70 hover:opacity-100 transition-opacity"
-                                    />
-                                </a>
-                            </div>
+                    {/* Analytics Section - Restored Original Trackers */}
+                    <div className="flex items-center gap-6">
+                        {/* Page Views Badge */}
+                        <div className="flex flex-col items-center gap-2">
+                            <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener noreferrer">
+                                <img
+                                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fddliu365.github.io&count_bg=%23A31F34&title_bg=%231F2937&icon=&icon_color=%23E7E7E7&title=VISITS&edge_flat=false"
+                                    alt="Hits"
+                                    className="h-5 opacity-90 hover:opacity-100 transition-opacity"
+                                />
+                            </a>
+                        </div>
+
+                        {/* Flag Counter */}
+                        <div className="flex flex-col items-center gap-2">
+                            <a href="https://info.flagcounter.com/8v7F" target="_blank" rel="noopener noreferrer">
+                                <img
+                                    src="https://s11.flagcounter.com/count2/8v7F/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/"
+                                    alt="Flag Counter"
+                                    className="h-10 opacity-80 hover:opacity-100 transition-opacity mix-blend-multiply"
+                                />
+                            </a>
                         </div>
                     </div>
 

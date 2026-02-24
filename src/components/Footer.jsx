@@ -20,15 +20,19 @@ const Footer = () => {
 
                     {/* Analytics Section - Restored Original Trackers */}
                     <div className="flex items-center gap-6">
-                        {/* Page Views Badge */}
-                        <div className="flex flex-col items-center gap-2">
-                            <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener noreferrer">
-                                <img
-                                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fddliu365.github.io&count_bg=%23A31F34&title_bg=%231F2937&icon=&icon_color=%23E7E7E7&title=VISITS&edge_flat=false"
-                                    alt="Hits"
-                                    className="h-5 opacity-90 hover:opacity-100 transition-opacity"
-                                />
-                            </a>
+                        {/* Page Views Counter */}
+                        <div className="flex flex-col items-center gap-1.5">
+                            <span className="text-[9px] uppercase tracking-widest text-slate-400 font-bold font-mono">Visits</span>
+                            <div className="bg-slate-50 px-2 py-1 border border-slate-100">
+                                <a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://hitwebcounter.com/counter/counter.php?page=21476554&style=0007&nbdigits=6&type=page&initCount=8088"
+                                        title="Page Views"
+                                        alt="Page Views"
+                                        className="h-4 opacity-80 hover:opacity-100 transition-opacity"
+                                    />
+                                </a>
+                            </div>
                         </div>
 
                         {/* Flag Counter */}

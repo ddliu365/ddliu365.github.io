@@ -34,17 +34,6 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
-
-                        {/* Flag Counter */}
-                        <div className="flex flex-col items-center gap-2">
-                            <a href="https://info.flagcounter.com/8v7F" target="_blank" rel="noopener noreferrer">
-                                <img
-                                    src="https://s11.flagcounter.com/count2/8v7F/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/"
-                                    alt="Flag Counter"
-                                    className="h-10 opacity-80 hover:opacity-100 transition-opacity mix-blend-multiply"
-                                />
-                            </a>
-                        </div>
                     </div>
 
                     {/* Metadata Section */}
